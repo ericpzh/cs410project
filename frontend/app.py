@@ -32,12 +32,6 @@ def index():
         return render_template('index.html', title='APP', list=list, form=form)
     list = [
         {
-            'name': 'react',
-        },
-        {
-            'name': '+1s',
-        },
-        {
             'name': lib_list[0]
         }
     ]
