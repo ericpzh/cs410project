@@ -10,6 +10,8 @@ class InputForm(FlaskForm):
     def validate_field(self, field):
         if False: ##todo parse it
             raise ValidationError('Must enter more than 1 libraries.')
+        else:
+            input_libs = field.split(",")
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'any secret string'
