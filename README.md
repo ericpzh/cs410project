@@ -1,7 +1,7 @@
 # cs410project
 
 ## Todo 
-grab data from ./scraper/.txt, use it in ./frontend/.py template
+implement the recommending algorithm
 
 # proposal 
 For the CS410 final project, our group will build a recommendation system that recommends ‘Node.js’ libraries to frontend React javascript developers. The basic idea is to crawl ‘package.json’ from popular GitHub repositories (have highest star count) about ‘React’. The project would be very helpful to frontend developers because there are tons of npm(node package manager) libraries online and developers may feel lost on deciding which libraries to use. This is very novel because Google doesn’t return any meaningful result in searching for similar projects. 
