@@ -9,6 +9,10 @@ def load_ranker(cfg_file):
     return metapy.index.OkapiBM25()
 
 if __name__ == '__main__':
+    # load the dataset
+    with open("../../scraper/data.txt") as file:
+        lib_list = [line[1:-2].split(",") for line in file.readlines()]
+
     if len(sys.argv) != 2:
         print("Usage: {} config.toml".format(sys.argv[0]))
         sys.exit(1)
