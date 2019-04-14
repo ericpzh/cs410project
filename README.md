@@ -3,7 +3,8 @@
 The scraped data of the libs are parsed and stored in a list
 
 ## Todo 
-Implement the recommending algorithm
+scrape the keywords of each package from npm website. 
+Implement the recommending algorithm.
 
 ## Proposal 
 For the CS410 final project, our group will build a recommendation system that recommends ‘Node.js’ libraries to frontend React javascript developers. The basic idea is to crawl ‘package.json’ from popular GitHub repositories (have highest star count) about ‘React’. The project would be very helpful to frontend developers because there are tons of npm(node package manager) libraries online and developers may feel lost on deciding which libraries to use. This is very novel because Google doesn’t return any meaningful result in searching for similar projects. 
