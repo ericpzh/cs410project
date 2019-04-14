@@ -1,8 +1,9 @@
 from flask import render_template
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import ValidationError, DataRequired
+from flask_cors import CORS
 
 class InputForm(FlaskForm):
     field = StringField('*separate by "," no space: ', validators=[DataRequired()])
@@ -14,6 +15,7 @@ class InputForm(FlaskForm):
             input_libs = field.split(",")
 
 app = Flask(__name__)
+CORS(app)
 app.config['SECRET_KEY'] = 'any secret string'
 
 @app.route('/', methods=['GET', 'POST'])
@@ -41,6 +43,7 @@ def index():
 
 @app.route('/test', methods=['GET'])
 def test():
+    print(request.args)
     return jsonify({'fish':"jaja"})
 
 if __name__ == '__main__':
