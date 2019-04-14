@@ -1,5 +1,5 @@
 from flask import render_template
-from flask import Flask
+from flask import Flask, jsonify
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import ValidationError, DataRequired
@@ -39,6 +39,9 @@ def index():
     ]
     return render_template('index.html', title='APP', list=list, form=form)
 
+@app.route('/test', methods=['GET'])
+def test():
+    return jsonify({'fish':"jaja"})
 
 if __name__ == '__main__':
     app.run()
