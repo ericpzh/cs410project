@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <head>
-  <title>{{ title }}</title>
+  <title>APP</title>
   <script type="application/javascript" src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
   <script type="application/javascript" src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
   <script type="application/javascript" src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+  <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css"/>
 </head>
 <Body>
   <div id='app'></div>
   <script type="text/babel">
-    fetch('/test')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(json) {
-      var fish = json.fish;
-      class App extends React.Component {
-          render() {
-            return (
-              <div>
-                  fish: {fish}
-              </div>
-            );
-          }
+    class App extends React.Component {
+      constructor(props) {
+        super(props);
+        this.state = {
+          fish : "fish",
+        };
+        this.becomeFish = this.becomeFish.bind(this);
       }
-      ReactDOM.render(<App/>, document.getElementById('app'));
-    });
+      becomeFish(){
+        var args = '?fish = I want Jaja';
+        fetch('http://127.0.0.1:5000/test'+args, {
+          mode: 'cors',
+          method: 'GET',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+        })
+        .then(res => res.json())
+        .then(res => {
+            this.setState({fish: res.fish});
+        })
+        .catch(error => {
+        });
+      }
+      render() {
+        return (
+          <div>
+            <div class="ui input">
+              <input type="text" placeholder="Search..."/>
+              <button onClick={this.becomeFish} class="ui button">Fish</button>
+            </div>
+            <div class="ui raised very padded text container segment">
+              fish: {this.state.fish}
+            </div>
+          </div>
+        );
+      }
+    }
+    ReactDOM.render(<App/>, document.getElementById('app'));
   </script>
 </Body>
