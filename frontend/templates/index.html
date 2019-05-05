@@ -15,9 +15,10 @@
         this.state = {
           fish : "fish",
         };
-        this.becomeFish = this.becomeFish.bind(this);
+        this.becomeChicken = this.becomeChicken.bind(this);
       }
-      becomeFish(){
+
+      becomeChicken(){
         var args = '?fish = I want Jaja';
         fetch('http://127.0.0.1:5000/test'+args, {
           mode: 'cors',
@@ -29,21 +30,28 @@
         .then(res => res.json())
         .then(res => {
             this.setState({fish: res.fish});
+            return res;
         })
         .catch(error => {
         });
       }
+
       render() {
         return (
-          <div>
-            <div class="ui input">
-              <input type="text" placeholder="Search..."/>
-              <button onClick={this.becomeFish} class="ui button">Fish</button>
-            </div>
-            <div class="ui raised very padded text container segment">
-              fish: {this.state.fish}
-            </div>
-          </div>
+                <div className="ui container">
+                  <div className="ui raised very padded container segment">
+                    <div className="ui huge header">NPM Package Recommender</div>
+                    <div className="ui input">
+                      <input type="text" placeholder="Enter a package list"/>
+                      <button onClick={this.becomeChicken} className="ui button">Search</button>
+                    </div>
+                  <div>
+                    <br></br>
+                    <div className="ui large header">Results</div>
+                    fish: {this.state.fish}
+                  </div>
+                  </div>
+                </div>
         );
       }
     }
