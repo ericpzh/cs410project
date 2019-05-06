@@ -13,7 +13,7 @@
       constructor(props) {
         super(props);
         this.state = {
-          fish : "fish",
+          fish : "Start a search to see results",
           input : '',
           example: {
             "axios": "^0.18.0",
@@ -27,7 +27,8 @@
             "semantic-ui-css": "^2.4.1",
             "semantic-ui-react": "^0.85.0"
           },
-          parsedList: []
+          parsedList: [],
+          loading: false,
         };
         this.becomeChicken = this.becomeChicken.bind(this);
         this.becomeChickenByTopic = this.becomeChickenByTopic.bind(this);
@@ -47,7 +48,8 @@
 
       becomeChicken(){
         var args = '?data='+this.state.parsedList;
-        console.log(this.state.parsedList)
+        console.log(this.state.parsedList);
+        this.setState({loading: true});
         fetch('http://127.0.0.1:5000/test'+args, {
           mode: 'cors',
           method: 'GET',
@@ -58,7 +60,7 @@
         .then(res => res.json())
         .then(res => {
             console.log(res);
-            this.setState({fish: res.fish});
+            this.setState({fish: res, loading: false});
             return res;
         })
         .catch(error => {
@@ -67,6 +69,7 @@
 
       becomeChickenByTopic(){
         var args = '?data='+this.state.parsedList;
+        this.setState({loading: true});
         fetch('http://127.0.0.1:5000/topic'+args, {
           mode: 'cors',
           method: 'GET',
@@ -76,15 +79,18 @@
         })
                 .then(res => res.json())
                 .then(res => {
-                  this.setState({fish: res.fish});
+                  console.log(res);
+                  this.setState({fish: res, loading: false});
                   return res;
                 })
                 .catch(error => {
                 });
+
       }
 
       handleTab(e){
-        this.setState({input: "", parsedList: []});
+        // reset contents
+        this.setState({input: "", parsedList: [], fish: "Start a search to see results"});
         let tabmenu = document.querySelectorAll(".tabmenu");
         tabmenu.forEach(tab => {
           tab.classList.remove("active");
@@ -103,6 +109,15 @@
 
       render() {
         let pkgList = this.state.parsedList.map(pkg => <li>{pkg}</li>);
+        let result = this.state.loading ? (<div>
+                  <div className="ui active inverted dimmer">
+                    <div className="ui large text loader">Searching for similar packages...</div>
+                  </div>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                </div>): this.state.fish;
         return (
                 <div className="ui container">
                   <br/>
@@ -164,7 +179,9 @@
                   <div>
                     <br/>
                     <div className="ui large header">Results</div>
-                    {this.state.fish}
+                    <div className="ui segment">
+                    {result}
+                    </div>
                   </div>
                   </div>
                 </div>
