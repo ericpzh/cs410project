@@ -37,7 +37,12 @@
 
       handleChange(e){
         this.setState({input: e.target.value});
-        this.setState({parsedList: Object.keys(JSON.parse(e.target.value))});
+        if (e.target.getAttribute("id")==="list") {
+          this.setState({parsedList: Object.keys(JSON.parse(e.target.value))});
+        }
+        else {
+            this.setState({parsedList: e.target.value.split(",")});
+        }
       }
 
       becomeChicken(){
@@ -52,7 +57,7 @@
         })
         .then(res => res.json())
         .then(res => {
-            console.log(res)
+            console.log(res);
             this.setState({fish: res.fish});
             return res;
         })
@@ -79,6 +84,7 @@
       }
 
       handleTab(e){
+        this.setState({input: "", parsedList: []});
         let tabmenu = document.querySelectorAll(".tabmenu");
         tabmenu.forEach(tab => {
           tab.classList.remove("active");
@@ -121,7 +127,7 @@
                       <div className="ui divider"/>
                       <div className="ui action left icon input">
                         <i className="list icon"/>
-                        <input type="text" onChange={this.handleChange} value={this.state.input} placeholder="Enter a Package List"/>
+                        <input type="text" id="list" onChange={this.handleChange} value={this.state.input} placeholder="Enter a Package List"/>
                         <button onClick={this.becomeChicken} className="ui icon button"><i className="search icon"/></button>
                       </div>
                       <div className="ui header">Parsed Package List:</div>
@@ -136,20 +142,24 @@
                           Find Similar Packages By Topic(s)
                         </div>
                         <ul className="list">
-                          <li>In this mode you can enter a list of topic.</li>
-                          <li>Copy the "dependencies" field in your package.json.</li>
+                          <li>In this mode you can enter a list of topics and find the packages with similar topics.</li>
+                          <li>Enter a list of topic below, separated by ' , '</li>
                           <li>Example Input:</li>
-                          <p>{JSON.stringify(this.state.example)}</p>
+                          <p>react, visualization, express</p>
                         </ul>
                       </div>
                       <div className="ui divider"/>
                       <div className="ui action left icon input">
                         <i className="tags icon"/>
-                        <input type="text" onChange={this.handleChange} value={this.state.input} placeholder="Enter a Topic (List)"/>
+                        <input type="text" id="topic" onChange={this.handleChange} value={this.state.input} placeholder="Enter a Topic (List)"/>
                         <button onClick={this.becomeChickenByTopic} className="ui icon button">
                           <i className="search icon"/>
                         </button>
                       </div>
+                      <div className="ui header">Parsed Topic List:</div>
+                      <ul className="list">
+                        {pkgList}
+                      </ul>
                     </div>
                   <div>
                     <br/>
