@@ -60,7 +60,8 @@
         .then(res => res.json())
         .then(res => {
             console.log(res);
-            this.setState({fish: res, loading: false});
+            let fish = res ? "No relevant package found" : res;
+            this.setState({fish: fish, loading: false});
             return res;
         })
         .catch(error => {
@@ -80,7 +81,8 @@
                 .then(res => res.json())
                 .then(res => {
                   console.log(res);
-                  this.setState({fish: res, loading: false});
+                  let fish = res ? "No relevant package found" : res;
+                  this.setState({fish: fish, loading: false});
                   return res;
                 })
                 .catch(error => {
