@@ -3,10 +3,10 @@ import sys
 import time
 import metapy
 import pytoml
-from plsa import topicWords
+from meta.plsa import topicWords
 
 def getDocuments():
-    with open("./package.dat", 'r') as f:
+    with open("./meta/package/package.dat", 'r') as f:
         documents = []
         for i in f.readlines():
             documents.append(i.replace('\n', ''))
@@ -30,6 +30,6 @@ def getWords(queryContent, number_of_topics=3, number_of_terms=10):
     rel_doc = search(getDocuments(), queryContent)
     return topicWords(rel_doc, queryContent, number_of_topics, number_of_terms)
 
-q = "babel-core"
-words = getWords(q, 1, 20)
-print(words)
+# q = "babel-core"
+# words = getWords(q, 1, 20)
+# print(words)

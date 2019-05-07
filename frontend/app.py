@@ -4,6 +4,10 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import ValidationError, DataRequired
 from flask_cors import CORS
+import sys
+sys.path.append("../")
+
+from meta.parser import getWords
 
 class InputForm(FlaskForm):
     field = StringField('*separate by "," no space: ', validators=[DataRequired()])
