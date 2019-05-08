@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js"></script>
+</head>
+<Body>
+  <div class="input">
+    <h1> List Libraries: </h1>
+    <form action="" method="post">
+      {{ form.hidden_tag() }}
+      <p>
+        <p>
+          {{ form.field.label }}<br>
+          {{ form.field() }}<br>
+        </p>
+        {% for error in form.field.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+      </p>
+      <p>{{ form.submit() }}</p>
+    </form>
+  </div>
+  <div class="output">
+    <h1> Recommendations: </h1>
+    {% for item in list %}
+    <div><p>{{ item.name }}</p></div>
+    {% endfor %}
+  </div>
+</Body>

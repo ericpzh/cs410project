@@ -1,0 +1,1714 @@
+A framework for building native apps using React react-native
+React specific linting rules for ESLint eslint-plugin-react
+Library for composing asynchronous and event-based operations in JavaScript rx
+Material Design Svg Icons converted to Material-UI React components. @material-ui/icons
+JavaScript Testing utilities for React enzyme
+EventEmitter3 focuses on performance while maintaining a Node.js AND browser compatible interface. eventemitter3
+Lightweight library for composing asynchronous and event-based operations in JavaScript rx-lite
+An enterprise-class UI design language and React-based implementation antd
+React Bootstrap 4 components reactstrap
+SVGR webpack loader. @svgr/webpack
+Turn JSX into React function calls babel-plugin-transform-react-jsx
+A document head manager for React react-helmet
+Bootstrap 4 components built with React react-bootstrap
+Accessible modal dialog component for React.JS react-modal
+A mirror of Facebook's Warning warning
+Webpack utilities used by Create React App react-dev-utils
+Lightweight library with aggregate functions for composing asynchronous and event-based operations in JavaScript rx-lite-aggregates
+Drag and Drop for React react-dnd
+A spring that solves your animation problems. react-motion
+Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations. react-intl
+React components for efficiently rendering large, scrollable lists and tabular data react-virtualized
+A simple yet functional GraphQL client. apollo-client
+Backwards compatibility polyfill for React class components react-lifecycles-compat
+A Collection of Color Pickers from Sketch, Photoshop, Chrome & more react-color
+The Next Generation of CSS-in-JS. emotion
+React wrapper around Popper.js react-popper
+Simple, scalable state management. mobx
+A higher order component for loading components with promises react-loadable
+Simple HTML5 drag-drop zone with React.js react-dropzone
+React data container for Apollo Client react-apollo
+HTML5 backend for React DnD react-dnd-html5-backend
+React port of slick carousel react-slick
+> Simple styling in React. @emotion/core
+Babel preset used by Create React App babel-preset-react-app
+JavaScript Testing utilities for React enzyme-adapter-utils
+A React framework for building text editors. draft-js
+Configuration and scripts for Create React App. react-scripts
+ESLint configuration used by Create React App eslint-config-react-app
+Babel preset for all React plugins. @babel/preset-react
+A recommended babel preprocessing plugin for emotion, The Next Generation of CSS-in-JS. babel-plugin-emotion
+Polyfill for the proposed React context API create-react-context
+Remove unnecessary React propTypes from the production build babel-plugin-transform-react-remove-prop-types
+A preprocessor with source maps support to help use TypeScript with Jest ts-jest
+The official Semantic-UI-React integration. semantic-ui-react
+The React Framework next
+A higher order component decorator for forms using Redux and React redux-form
+React draggable component react-draggable
+Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling. react-native-vector-icons
+Routing and navigation for your React Native apps react-navigation
+Transform SVG into React Components. @svgr/core
+A CLI and toolkit to extract information from React components for documentation generation. react-docgen
+Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby. gatsby-plugin-react-helmet
+tiny modular DOM lib for ie8+ dom-helpers
+A simple and reusable datepicker component for React react-datepicker
+Forms in React, without tears formik
+Alternative, faster React.js JSX parser acorn-jsx
+A lightweight toolset for writing styles in Javascript. polished
+An application architecture based on a unidirectional data flow flux
+A dictionary of file extensions and associated module loaders. interpret
+Fast 3kb React alternative with the same modern API. Components & Virtual DOM. preact
+Brand checking of React Elements. react-is
+An onClickOutside wrapper for React components react-onclickoutside
+textarea component for React which grows with content react-textarea-autosize
+An overlay for displaying stack frames. react-error-overlay
+A responsive and accessible date range picker component built with React react-dates
+React package for snapshot testing. react-test-renderer
+React bindings for MobX. Create fully reactive components. mobx-react
+Beautiful and accessible drag and drop for lists with React react-beautiful-dnd
+JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery required. Supports Meteor, AngularJS, React, Polymer, Vue, Knockout and any CSS library, e.g. Bootstrap. sortablejs
+Transform DOM elements into react-native-svg components @svgr/babel-plugin-transform-react-native-svg
+The Next Generation of CSS-in-JS. create-emotion
+Material-UI Lab - Incubator for Material-UI React components. @material-ui/lab
+A fast, lightweight, opinionated table and datagrid built on React react-table
+React charts recharts
+Renders Markdown as React components react-markdown
+Set of higher-order components to turn any list into a sortable, touch-friendly, animated list react-sortable-hoc
+SVG React icons of popular icon packs using ES6 imports react-icons
+Integration between React Router and React-Bootstrap react-router-bootstrap
+Static route config matching for React Router react-router-config
+Lint rules related to React & JSX for TSLint tslint-react
+Use react-devtools outside of the browser react-devtools-core
+Bringing Classes to Inline Styles reactcss
+Official React component for Font Awesome 5 @fortawesome/react-fontawesome
+Slider UI component for React rc-slider
+To make your life with React Portals easier. react-portal
+Next generation Routing for React. @reach/router
+A set of spring-physics based animation primitives react-spring
+Universal WHATWG Fetch API for Node, Browsers and React Native cross-fetch
+React input component that accepts mask pattern react-text-mask
+Auto-resizing Input Component for React react-input-autosize
+React components to wrap Velocity animations velocity-react
+A React utility belt for function components and higher-order components recompose
+WAI-ARIA compliant React autosuggest component react-autosuggest
+React Google Analytics Module. react-ga
+A set of React components for building completely customizable rich-text editors. slate-react
+css-transition ui component for react rc-animate
+Simple and complete React DOM testing utilities that encourage good testing practices. react-testing-library
+Legacy API for creating React components. create-react-class
+React split-pane component react-split-pane
+Flexible date picker component for React react-day-picker
+Babel preset for React Native applications metro-react-native-babel-preset
+Utilities for creating robust overlay components react-overlays
+React's ExecutionEnvironment module extracted for use in other packages & components exenv
+A framework for building GraphQL-driven React applications. react-relay
+Internationalization for react done right. Using the i18next i18n ecosystem. react-i18next
+React components that implement Google's Material Design. @material-ui/core
+The React Native CLI tools react-native-cli
+A CSS-in-JS theming solution, inspired by styled-components emotion-theming
+React Tooltip rc-tooltip
+A declarative animation library for React react-pose
+Add displayName to React.createClass calls @babel/plugin-transform-react-display-name
+Create components whose prop changes map to a global side effect react-side-effect
+Reusable React components for building experiences for Office 365. office-ui-fabric-react
+Parse MDX and transpile to JSX @mdx-js/mdx
+React JSON Viewer Component, Extracted from redux-devtools react-json-tree
+A Redux binding for React Router v4 and v5 connected-react-router
+Turn JSX elements into exploded React objects babel-plugin-transform-react-inline-elements
+react tooltip component react-tooltip
+React.js Google Maps integration component react-google-maps
+Media queries in react for responsive design react-responsive
+Easy to use declarative transitions and animations for React Native react-native-animatable
+Convert CSS text to a React Native stylesheet object css-to-react-native
+A React component that allow to bind events on the global scope react-event-listener
+A set of primitives to build simple, flexible, WAI-ARIA compliant React autocomplete components downshift
+Power of Browser DevTools inspectors right inside your React app react-inspector
+Treat React JSX elements as value types and hoist them to the highest scope @babel/plugin-transform-react-constant-elements
+Add a __source prop to all JSX Elements @babel/plugin-transform-react-jsx-source
+Responsive, theme-based style props for building design systems with React styled-system
+Cooperative scheduler for the browser environment. scheduler
+React Native for Web react-native-web
+SVG library for react-native react-native-svg
+Fastest deep equal comparison for React. Perfect for shouldComponentUpdate. Also really fast general-purpose deep comparison react-fast-compare
+syntax highlighting component for react with prismjs or highlightjs ast using inline styles react-syntax-highlighter
+Tab view component for React Native react-native-tab-view
+Storybook for React: Develop React Component in isolation with Hot Reloading. @storybook/react
+React Native Elements & UI Toolkit react-native-elements
+A completely customizable framework for building rich text editors. slate
+JSS integration with React react-jss
+React components style guide generator react-styleguidist
+A fully-featured Markdown/MDX React component for ambitious projects @mdx-js/tag
+A react component for Ace Editor react-ace
+base abstract trigger component for react rc-trigger
+A React Transform that enables hot reloading React classes using Hot Module Replacement API react-transform-hmr
+Common Utils For React Component rc-util
+Polyfills for various browsers including commonly used language features react-app-polyfill
+Copy-to-clipboard React component react-copy-to-clipboard
+Amazon Cognito Identity Provider JavaScript SDK amazon-cognito-identity-js
+React notification made easy react-toastify
+React Calendar rc-calendar
+A draggable and resizable grid layout with responsive breakpoints, for React. react-grid-layout
+Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts react-app-rewired
+A lightweight but complete datetime picker React.js component react-datetime
+Add a __self prop to all JSX Elements @babel/plugin-transform-react-jsx-self
+A React component to execute a function whenever you scroll to an element. react-waypoint
+A scroll component for React.js react-scroll
+React resize detector react-resize-detector
+Lazyload your components, images or anything where performance matters. react-lazyload
+A functional, reactive motion library. popmotion
+React Native bindings for Lottie lottie-react-native
+Get device information using react-native react-native-device-info
+ag-Grid React Component ag-grid-react
+Components, fonts, icons, and css files for creating and displaying icons. @blueprintjs/icons
+A set of React prop type checkers for Slate editors. slate-prop-types
+React High Order Form Component rc-form
+An accessible and easy tab component for ReactJS react-tabs
+A declarative library for handling hotkeys and focus within a React application react-hotkeys
+A set of tools to manage inline styles on React elements radium
+Compute measurements of React components. react-measure
+React Tree View Component react-treebeard
+JavaScript Standard Style React/JSX support - ESLint Shareable Config eslint-config-standard-react
+Reactive Extensions for modern JavaScript @reactivex/rxjs
+Data visualization library based on React and d3. react-vis
+A React component for swipeable views react-swipeable-views
+A simple React component capable of building HTML forms out of a JSON schema. react-jsonschema-form
+React Native bindings for React Router react-router-native
+React Native Mapview component for iOS + Android react-native-maps
+react-chartjs-2 react-chartjs-2
+A Camera component for React Native. Also reads barcodes. react-native-camera
+Babel plugin for named asset imports in Create React App babel-plugin-named-asset-import
+tree ui component for react rc-tree
+SVG component to create placeholder loading, like Facebook cards loading. react-content-loader
+Custom React PropType validators that we use at Airbnb. airbnb-prop-types
+React scrollbars component react-custom-scrollbars
+A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion react-player
+Essential cross-platform UI components for React Native native-base
+A React wrapper for MapboxGL-js and overlay API. react-map-gl
+React and redux based, lightweight and elm-style framework. dva
+isomorphic google map react component, allows render react components on the google map google-map-react
+React components for Stripe.js and Stripe Elements react-stripe-elements
+Swiper component for React Native. react-native-swiper
+Experimental implementation of a new declarative API for gesture handling in react-native react-native-gesture-handler
+Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components ag-grid-community
+React Storybook: Isolate React Component Development with Hot Reloading. @kadira/storybook
+Treat React JSX elements as value types and hoist them to the highest scope babel-plugin-transform-react-constant-elements
+A <LinearGradient> element for React Native react-native-linear-gradient
+Beautiful, data-driven animations for React. react-move
+Simple lazy loading component built with react react-lazy-load
+table ui component for react rc-table
+Framework-agnostic CSS-in-JS with support for server-side rendering, browser prefixing, and minimum CSS generation aphrodite
+progress ui component for react rc-progress
+A React Native module that allows you to use native UI to select media from the device library or directly from the camera react-native-image-picker
+JavaScript Testing utilities for React enzyme-adapter-react-15
+A Slate plugin to render a placeholder with React. slate-react-placeholder
+Babel plugin to add react-docgen info into your code babel-plugin-react-docgen
+React Select rc-select
+Babel plugin to instrument React components with custom transforms babel-plugin-react-transform
+The Quill rich-text editor as a React component. react-quill
+Loader for MDX @mdx-js/loader
+TimerMixin provides timer functions for executing code in the future that are safely cleaned up when the component unmounts react-timer-mixin
+menu ui component for react rc-menu
+A powerful React chart library based G2 for browser bizcharts
+[![Build Status][travis-svg]][travis-url] [![dependency status][deps-svg]][deps-url] [![dev dependency status][dev-deps-svg]][dev-deps-url] [![License][license-image]][license-url] [![Downloads][downloads-image]][downloads-url] react-with-styles
+pagination ui component for react rc-pagination
+Spring Boot + Angular/React in one handy generator generator-jhipster
+Components for interacting with dates and times @blueprintjs/datetime
+A React Native ScrollView component that resizes when the keyboard appears. react-native-keyboard-aware-scroll-view
+A declarative, nested, stateful document.title for React react-document-title
+A ReactJS component that creates a pagination. react-paginate
+React for CLI ink
+Universal cookies for React react-cookie
+Victory Core victory-core
+A basic cache for React applications react-cache
+An enhanced React-Native modal react-native-modal
+Data viz for React victory
+Run-time Autoprefixer for JavaScript style objects inline-style-prefixer
+React Native Navigation - truly native navigation for iOS and Android react-native-navigation
+A configurable component library for web built on React. @alifd/next
+PropType validators that work with Immutable.js. react-immutable-proptypes
+upload ui component for react rc-upload
+A <Video /> element for react-native react-native-video
+Babel plugin for React Native for Web babel-plugin-react-native-web
+react-swipeable-views utility modules react-swipeable-views-utils
+A browser-ready efficient scrolling container based on UITableView react-infinite
+Rails UJS for the react-rails gem react_ujs
+dialog ui component for react rc-dialog
+A wysiwyg on top of DraftJS. react-draft-wysiwyg
+React TimePicker rc-time-picker
+Babel transformer for React Native applications metro-react-native-babel-transformer
+React components for Leaflet maps react-leaflet
+CSS media queries for React react-media
+Excel-like grid component built with React, with editors, keyboard navigation, copy & paste, and the like react-data-grid
+tabs ui component for react rc-tabs
+A mock backend for testing React DnD apps react-dnd-test-backend
+A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Sto react-native-firebase
+Wrap a controlled react component, to allow specific prop/handler pairs to be uncontrolled uncontrollable
+React component to generate QR codes qrcode.react
+ESLint config for React Native @react-native-community/eslint-config
+For use with React PropTypes. Will error on any prop not explicitly specified. prop-types-exact
+react-swipeable-views core modules react-swipeable-views-core
+Sticky component for React react-sticky
+Calendar! with events react-big-calendar
+validates style objects by ensuring they only have valid keys react-style-proptype
+rc-collapse ui component for react rc-collapse
+vx group @vx/group
+Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with bodymovin and renders the vector animations natively on mobile and through React Native! lottie-ios
+Extract and inline critical css with emotion for server side rendering. emotion-server
+React Native plugin for the CodePush service react-native-code-push
+vx shape @vx/shape
+React components for efficiently rendering large, scrollable lists and tabular data react-window
+A component that is resizable with handles. react-resizable
+A production-focused playground for live editing React code react-live
+Native filesystem access for react-native react-native-fs
+Infinite scroll component for React in ES6 react-infinite-scroller
+Add a __source prop to all JSX Elements babel-plugin-transform-react-jsx-source
+a tiny react codemirror component wrapper react-codemirror2
+Codemod scripts for Material-UI. @material-ui/codemod
+Facebook's TapEventPlugin, temporarily available on npm until its made public in their repo react-tap-event-plugin
+Handsontable is a JavaScript Spreadsheet Component available for React, Angular and Vue. handsontable
+Convert markdown to JSX with ease for React and React-like projects. Super lightweight and highly configurable. markdown-to-jsx
+notification ui component for react rc-notification
+A redbox (rsod) component to display your errors. redbox-react
+A library to help construct a graphql-js server supporting react-relay. graphql-relay
+>**Note:** >This is a legacy React addon, and is no longer maintained. > >We don't encourage using it in new code, but it exists for backwards compatibility.   >The recommended migration path is to use [`React.PureComponent`](https://facebook.github.io/re react-addons-shallow-compare
+React input-number component rc-input-number
+Helpful React components for Typography.js react-typography
+Babel plugin that adds React import declaration if file contains JSX tags. babel-plugin-react-require
+Seamless mapping of class names to CSS modules inside of React components. react-css-modules
+steps ui component for react rc-steps
+React animation. react-tween-state
+React component to format number in an input or as a text. react-number-format
+Reactive dataflow processing. vega-dataflow
+Testing Matchers for Enzyme jest-enzyme
+Sensor component for React that notifies you when it goes in or out of the window viewport. react-visibility-sensor
+A small functional reactive programming lib for JavaScript. baconjs
+Masked input component for React react-input-mask
+Transforms MDAST to MDXAST @mdx-js/mdxast
+The Cycle.js run() function to use with xstream @cycle/run
+Pure React Carousel nuka-carousel
+Effortless animation between DOM changes (eg. list reordering) using the FLIP technique. react-flip-move
+Accessible, extensible, Autocomplete for React.js react-autocomplete
+Office UI Fabric utilities for building React components. @uifabric/utilities
+A set of React components implementing flexboxgrid with the power of CSS Modules react-flexbox-grid
+Use react-devtools outside of the browser react-devtools
+switch ui component for react rc-switch
+Display PDFs in your React app as easily as if they were images. react-pdf
+checkbox ui component for react rc-checkbox
+Give life to your dumb components react-powerplug
+Utility for making React components easily themeable react-themeable
+React component wrappers around Uppy's official UI plugins. @uppy/react
+Chart Component for Victory victory-chart
+TypeScript definitions for React Router @types/react-router
+Extracts string messages for translation from modules that use React Intl. babel-plugin-react-intl
+It is a trap! (for a focus) react-focus-lock
+JavaScript Testing utilities for React enzyme-adapter-react-16.3
+tree-select ui component for react rc-tree-select
+The code in this package has moved. We recommend you to use `CSSTransitionGroup` from [`react-transition-group`](https://github.com/reactjs/react-transition-group) instead. react-addons-css-transition-group
+Editor for DraftJS Plugins draft-js-plugins-editor
+Generic way to compose data containers for React. @storybook/react-komposer
+Transforms styleName to className using compile time CSS module resolution. babel-plugin-react-css-modules
+A set of React components implementing Google's Material Design specification with the power of CSS Modules. react-toolbox
+React PropType Utilities prop-types-extra
+A CSS-based selector parser for React Standard Tree (RST) traversal rst-selector-parser
+A lightweight library that converts raw HTML to a React DOM structure. html-to-react
+JavaScript Testing utilities for React enzyme-adapter-react-helper
+React components, that implements material design pickers for material-ui v1 material-ui-pickers
+Pie Component for Victory victory-pie
+React implementation for MDX @mdx-js/react
+Make your React Components aware of their dimensions and position. react-sizeme
+React Native Calendar Components react-native-calendars
+Reactive Programming library for JavaScript inspired by Bacon.js and RxJS with focus on high performance and low memory usage kefir
+Turn a ReactElement into the corresponding JSX string. react-element-to-jsx-string
+React proptype for moment module react-moment-proptypes
+The most complete chat UI for React Native react-native-gifted-chat
+vx scale @vx/scale
+Runtime support for Vega dataflows. vega-runtime
+vx event @vx/event
+Tooltip Component for Victory victory-tooltip
+Shared Event Helper for Victory victory-shared-events
+Polar Axis Component for Victory victory-polar-axis
+Interactive react component for displaying javascript arrays and JSON objects. react-json-view
+Interactive Voronoi Mouseover Component for Victory victory-voronoi-container
+Interactive Selection Component for Victory victory-selection-container
+Interactive Zoom Component for Victory victory-zoom-container
+Interactive Cursor Component for Victory victory-cursor-container
+Interactive Brush Component for Victory victory-brush-container
+React component for syntax highlighting react-highlight
+An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations react-burger-menu
+React Components for deck.gl @deck.gl/react
+A React compatibility layer for Preact preact-compat
+A simple utility for creating an object with values equal to its keys. Identical to react/lib/keyMirror keymirror
+React Fuzzy Component react-fuzzy
+A simple library for uni-directional dataflow application architecture inspired by ReactJS Flux reflux
+English messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services ra-language-english
+dropdown ui component for react rc-dropdown
+Collection of React Hooks react-use
+A splash screen for react-native, hide when application loaded ,it works on iOS and Android. react-native-splash-screen
+vx axis @vx/axis
+JS only version of SafeAreaView for supporting iPhone X safe area insets. react-native-safe-area-view
+Axis Component for Victory victory-axis
+A React Notification System fully customized react-notification-system
+Scatter Component for Victory victory-scatter
+Area Component for Victory victory-area
+Line Component for Victory victory-line
+Box Plot Component for Victory victory-box-plot
+Opinionated toolkit for building websites with beautiful typography typography
+Legend Component for Victory victory-legend
+Voronoi Component for Victory victory-voronoi
+Bar Component for Victory victory-bar
+Container Helper for Victory victory-create-container
+Error Bar Component for Victory victory-errorbar
+Stack Layout Component for Victory victory-stack
+Interactive Brush Line Component for Victory victory-brush-line
+Candlestick Component for Victory victory-candlestick
+Group Layout Component for Victory victory-group
+It's a react table for bootstrap react-bootstrap-table
+Jest utilities for emotion jest-emotion
+Thread-safe Helmet for React 16+ and friends react-helmet-async
+A React component for the font-awesome icon library. react-fontawesome
+vx curve @vx/curve
+React primitive UI components built with styled-system rebass
+React component to highlight words within a larger body of text react-highlight-words
+Blazing fast modern site generator for React gatsby
+A React component for Google Maps Places Autocomplete react-places-autocomplete
+[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view) react-native-scrollable-tab-view
+Patch React to discover unnecessary re-renders why-did-you-update
+React Native Router using Flux architecture react-native-router-flux
+React bindings for Styletron styletron-react
+React package for use inside react-native. react-native-renderer
+A responsive image cropping tool for React react-image-crop
+align ui component for react rc-align
+An enterprise-class UI design language and React-based implementation ant-design-pro
+Parse Vega specifications to runtime dataflows. vega-parser
+An elegant, accessible toggle component for React. Also a glorified checkbox. react-toggle
+React Native Drawer react-native-drawer
+React specific wrapper for @ionic/core @ionic/react
+A simple, responsive lightbox component for displaying an array of images with React.js react-images
+vx tooltip @vx/tooltip
+Convert markdown into react components marksy
+Monadic streams most
+Expose config variables to React Native apps react-native-config
+A Select control built with and for ReactJS @torkelo/react-select
+An extremely fast, React-like JavaScript library for building modern user interfaces inferno
+Codemirror react-codemirror
+Add displayName to React.createClass calls babel-plugin-transform-react-display-name
+vx responsive svg @vx/responsive
+First incomplete navigation solution for your react-native app. react-native-screens
+Progress indicators and spinners for React Native using ReactART react-native-progress
+react animation library react-smooth
+Add a __self prop to all JSX Elements babel-plugin-transform-react-jsx-self
+React component for Feather icons react-feather
+Proxies React components without unmounting or losing their state. react-proxy
+cascade select ui component for react rc-cascader
+Next-generation DOM manipulation ractive
+React code splitting made easy. @loadable/component
+![travis](https://travis-ci.org/brigand/react-mixin.svg) react-mixin
+Pusher JavaScript library for browsers, React Native, NodeJS and web workers pusher-js
+A Webpack Loader to turn SVGs into React Components svg-react-loader
+Taro specific linting plugin for ESLint eslint-plugin-taro
+The standard DOM Driver for Cycle.js, based on Snabbdom @cycle/dom
+A React table component designed to allow presenting thousands of rows of data. fixed-data-table
+SVGR command line. @svgr/cli
+This package is not relevant in Emotion 10, please use @emotion/styled react-emotion
+Drag-and-drop sortable component for nested data and hierarchies react-sortable-tree
+Opinionated, transactional, MobX powered state container mobx-state-tree
+A suite of 3D-enabled data visualization overlays, suitable for react-map-gl deck.gl
+Highly customizable React component for inputing tags react-tagsinput
+Drop-down menu for React with windowing to support large numbers of options. react-virtualized-select
+A collection of react loading spinners react-spinners
+ReDoc redoc
+A framework for building native apps using React @brunolemos/react-native
+```sh yarn add @react-pdf/renderer ``` @react-pdf/renderer
+A component wrapper that provides click outside detection. react-click-outside
+Check user permissions in React Native react-native-permissions
+react.js powered YouTube player component react-youtube
+ESLint rules for React Hooks eslint-plugin-react-hooks
+React Native Local and Remote Notifications react-native-push-notification
+Reactive, responsive, beautiful charts for Angular2 based on Chart.js ng2-charts
+PostCSS for React Inline Styles, Radium, Free Style and other CSS-in-JS postcss-js
+vx text @vx/text
+Social media share buttons and share counts for React. react-share
+react-on-rails JavaScript for react_on_rails Ruby gem react-on-rails
+Cleans up and inlines your SVG files into Webpack module. svg-inline-loader
+SSR and style extraction tooling for emotion, The Next Generation of CSS-in-JS. create-emotion-server
+Simple Dependancy Injection Solution for React @storybook/react-simple-di
+PostCSS syntax for parsing CSS in JS literals postcss-jsx
+vx grid @vx/grid
+iOS-style swipeout buttons behind component react-native-swipeout
+Component-wrapper for collapse animation with react-motion for elements with variable (and dynamic) height react-collapse
+Animated collapsible component for React Native using the Animated API. Good for accordions, toggles etc react-native-collapsible
+An extensible, open source, Git-based, React CMS for static sites. netlify-cms
+A function, a component and a mixin for React pure rendering react-pure-render
+baidu Echarts(v3.x & v4.x) components for react. echarts-for-react
+regl is a fast functional WebGL framework. regl
+Runtime Environment for enzyme tests in jest jest-environment-enzyme
+vx gradient @vx/gradient
+React Star Rate Component rc-rate
+mention ui component for react rc-editor-mention
+Accessible rendering layer for Autosuggest and Autocomplete components react-autowhatever
+React bindings for Reason reason-react
+React Native specific linting rules for ESLint eslint-plugin-react-native
+A versatile infinite scroll [React] component. react-list
+Images etc in Full Screen Lightbox Popovers for React Native react-native-lightbox
+A React renderer for Sketch.app react-sketchapp
+<h1 align="center"> Ant Design Icons for React </h1> @ant-design/icons-react
+JavaScript Testing utilities for React enzyme-adapter-react-16.2
+React carousel image gallery component with thumbnail and mobile support react-image-gallery
+React Router scroll management react-router-scroll
+Utilities to make your life with bounding boxes better @vx/bounds
+JavaScript Testing utilities for React enzyme-adapter-react-15.4
+Clones a React element while preserving its original ref react-clone-referenced-element
+Create guided tours for your apps react-joyride
+drawer component for react rc-drawer
+A React component for dealing with clicks outside its subtree react-outside-click-handler
+Facebook SDK support for React Native apps. react-native-fbsdk
+CLI for running React Cosmos inside webpack-powered apps react-cosmos
+Cross-platform abstraction layer for writing React-based applications a single time that work identically across web, React Native, and Electron distribution reactxp
+A client-side library to make absolutely positioned elements attach to elements in the page efficiently. reactstrap-tether
+Select single or multiple images, with cropping option react-native-image-crop-picker
+A utility function to make scoped dataflow components in Cycle.js @cycle/isolate
+Avatar / profile picture component. Resize and crop your uploaded image using a intuitive user interface. react-avatar-editor
+React Native CLI @react-native-community/cli
+Enables body scroll locking (for iOS Mobile and Tablet, Android, desktop Safari/Chrome/Firefox) without breaking scrolling of a target element (eg. modal/lightbox/flyouts/nav-menus) body-scroll-lock
+Dev-tools for MobX and React mobx-react-devtools
+A mostly reasonable approach to JavaScript. airbnb-style
+Pose animation system for React Native react-native-pose
+A library to help you design your react-native app for the iPhone X react-native-iphone-x-helper
+vx glyph @vx/glyph
+Easy to use universal dynamic routes for Next.js next-routes
+React component to wrap your application or component in an iFrame for encapsulation purposes react-frame-component
+Easy React Native Layout & Grid for the Dumb react-native-easy-grid
+Resizable component for React. re-resizable
+React tippy react-tippy
+A collection of loading indicators animated with CSS for React react-spinkit
+Automatically bind methods to their class instance auto-bind
+Tab Navigation components for React Navigation react-navigation-tabs
+A React component that traps focus. focus-trap-react
+Lightweight IE6 compatible library for composing asynchronous and event-based operations in JavaScript rx-lite-compat
+Automatically add displayName to all your components babel-plugin-add-react-displayname
+More powerful alternative to Animated library for React Native. react-native-reanimated
+Optimize svg and load it as a React Component react-svg-loader
+React Rich Text Editor react-rte
+Components to provide and consume RTL or LTR direction in React react-with-direction
+Create server-rendered universal JavaScript applications with no configuration razzle
+vx pattern @vx/pattern
+Capture a React Native view to an image react-native-view-shot
+A react-native datetime-picker for Android and iOS react-native-modal-datetime-picker
+React Native platform extensions for the Universal Windows Platform. react-native-windows
+Buttons for DraftJS draft-js-buttons
+React wrapper for highcharts react-highcharts
+Composable reactive caching with efficient invalidation. optimism
+Factory for creating flavours of React Pose react-pose-core
+React plugin set for umi. umi-plugin-react
+An Apollo Link for Apollo Client that allows FileList, File, Blob or ReactNativeFile instances within query or mutation variables and sends GraphQL multipart requests. apollo-upload-client
+Additional PropTypes for React react-prop-types
+React Native DatePicker component for both Android and iOS, useing DatePickerAndroid, TimePickerAndroid and DatePickerIOS react-native-datepicker
+<p align="center"><img src ="https://github.com/bokuweb/react-rnd/blob/master/logo.png?raw=true" /></p> react-rnd
+Cropper as React components react-cropper
+Core components of react-admin, a frontend Framework for building admin applications on top of REST services, using ES6, React ra-core
+Typed styles for cssinjs typed-styles
+Reactive Extensions for modern JavaScript rxjs-es
+Reliably communicate state changes to deeply nested React elements react-broadcast
+JavaScript Testing utilities for React enzyme-adapter-react-16.1
+Easily animate characters and words with React Pose react-pose-text
+HTML5 Mobile Framework & UI Components onsenui
+An SVG loader for React react-inlinesvg
+React component for truncating multi-line spans and adding an ellipsis react-truncate
+Turn JSX into React Pre-0.12 function calls babel-plugin-transform-react-jsx-compat
+<img src="doc/asset/Rx_Logo_S.png" alt="RxJS Logo" width="86" height="86"> RxJS: Reactive Extensions For JavaScript ====================================== rxjs-compat
+Material design for React Native react-native-paper
+Use [Apollo Client](https://github.com/apollographql/apollo-client) as React [hooks](https://reactjs.org/docs/hooks-intro.html). react-apollo-hooks
+Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems reason
+Context Menu implemented in React react-contextmenu
+A higher order component for loading components with promises react-universal-component
+React components for translations @lingui/react
+React Native WebView component for iOS, Android, and Windows 10 (coming soon) react-native-webview
+A module provides upload, download, and files access API. Supports file stream read/write for process large files. react-native-fetch-blob
+Build CSV files on the fly basing on Array/literal object of data react-csv
+React component for the moment date library. react-moment
+Core utilities for the react-navigation framework @react-navigation/core
+Ultimate calendar for your React app. react-calendar
+React typeahead with Bootstrap styling react-bootstrap-typeahead
+A complete routing library for React @unovo/react-router
+A React autosuggest for the Google Maps Places API. react-geosuggest
+Mention Plugin for DraftJS draft-js-mention-plugin
+A <Modal/> component for react-native react-native-modalbox
+React package for debugging React trees. react-debug-tools
+High performance interactable views in React Native react-native-interactable
+React dropdown component react-dropdown
+React UI Framework elemental
+Provides normalize.css as a commonjs module. typography-normalize
+Components related to timezone selection and UI @blueprintjs/timezone
+A better way to develop React Native Components for your app @storybook/react-native-server
+A convenient way to return a JSX fragment without the wrapping `div` element and not worry about the version of React. render-fragment
+Listen to device orientation changes in React Native applications and programmatically set preferred orientations on a per screen basis react-native-orientation
+Draggable toggle-switch component for react react-switch
+A moment.js localizer for react-widgets react-widgets-moment
+Responsive React grid system built with styled-system, with support for styled-components and emotion @rebass/grid
+SVGR Rollup plugin. @svgr/rollup
+Parse HTML into React components react-html-parser
+Cooperative scheduler for the browser environment. schedule
+Material-UI Utils - Utility functions for Material-UI. @material-ui/utils
+ANSI to React Elements ansi-to-react
+Run GraphQL queries with no schema and just one resolver graphql-anywhere
+Configuration and scripts for Create React App. @knowitsolutions/react-scripts
+Pluggable enterprise-level react application framework. umi
+JSS plugin for function value and rule syntax jss-plugin-rule-value-function
+Create React apps with no build configuration. greate-react-app
+A React component for choosing dates and date ranges. react-date-range
+This package provides the React TestUtils add-on. react-addons-test-utils
+Dead simple centralized state container (store) with preact and react bindings. unistore
+A framework for building native apps using React @sunnylqm/react-native
+Prevent scroll on the body when component is mounted. react-scrolllock
+A scalable set of icons handcrafted with <3 by GitHub. @githubprimer/octicons-react
+React JSX support for Coffeescript coffee-react-transform
+Masked <input/> React component react-maskedinput
+A framework for building native apps using React @unpourtous/react-native
+A framework for building native apps using React @gohappy/react-native
+Simple Reactive DataStore for JavaScript @storybook/podda
+Chai.js assertions for enzyme chai-enzyme
+A GraphQL data provider for react-admin ra-data-graphql
+Force-updates React component tree recursively react-deep-force-update
+A framework for building native apps using React @entria/react-native
+Social share, sending simple data to other apps. react-native-share
+Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems. @esy-ocaml/reason
+Alerts / Notifications for React with rich configuration options react-s-alert
+Brad Birdsall's Swipe.js as a React component react-swipe
+React Native module for playing sound clips on iOS, Android, and Windows react-native-sound
+Realm is a mobile database: an alternative to SQLite and key-value stores realm
+A module provides upload, download, and files access API. Supports file stream read/write for process large files. rn-fetch-blob
+Open a web address or call, email, text or iMessage (iOS only) someone in React Native react-native-communications
+Onsen UI - React Components for Hybrid Cordova/PhoneGap Apps with Material Design and iOS UI components react-onsenui
+React Component Wrapper for Google reCAPTCHA react-google-recaptcha
+ReactJS / HammerJS integration. Support touch events in your React app. react-hammerjs
+Parallax Engine that reacts to the orientation of a smart device. parallax-js
+vx clip-path @vx/clip-path
+Provides an enum of all possible VNode Flags used when calling Inferno.createVNode inferno-vnode-flags
+DOM like data structure to be mutated by D3 et al, then rendered to React elements react-faux-dom
+A sidebar component for React. react-sidebar
+A Google Login Component for React react-google-login
+React wrapper around Popper.js @react-bootstrap/react-popper
+React component for the Intersection Observer API @researchgate/react-intersection-observer
+react charting components using the chartjs lib react-chartjs
+A framework for building native apps using React and is forked from the origin repo. react-native-fix-chinese-input-version
+Create Components that resolve asynchronously, with support for server side rendering and code splitting. react-async-component
+Configuration and scripts for Create React App. @khan123/react-scripts
+utility to return a react components display name react-display-name
+Robert Penner's easing functions, slightly modified tween-functions
+Video-React is a web video player built from the ground up for an HTML5 world using React library. video-react
+Hide your header until you need it. React.js port of headroom.js react-headroom
+Observable data. Reactive functions. Simple code. mobservable
+vx mock data @vx/mock-data
+Touch backend for react-dnd react-dnd-touch-backend
+Lightweight library with virtual time functions for composing asynchronous and event-based operations in JavaScript rx-lite-virtualtime
+Linkify Plugin for DraftJS draft-js-linkify-plugin
+Infinite scrolling date-picker built with React, with localization, themes, keyboard support, and more. react-infinite-calendar
+Create React apps with no build configuration. create-react-app
+A complete routing library for React react-router-3
+A simple Time-Ago component for ReactJs react-timeago
+A component which renders HTML content as native views react-native-htmlview
+React bindings for Fela react-fela
+Style and render React Native components using emotion @emotion/native
+React Form is a lightweight framework and utility for building powerful forms in React applications. react-form
+Use React Components in Angular ngreact
+Beautiful and expressive Sparklines component for React react-sparklines
+A flux implementation alt
+Configuration and scripts for Create React App. react-scripts-ts
+React component for inputting numeric values within a range react-input-range
+React Responsive Carousel react-responsive-carousel
+Incubator for unstable and in-development Blueprint components @blueprintjs/labs
+React components for MathJax @nteract/mathjax
+A specification backed popover for react react-popover
+Pure React Carousel rmc-nuka-carousel
+Material-UI System - Design system for Material-UI. @material-ui/system
+A cross-platform ActionSheet for React Native @expo/react-native-action-sheet
+Helper function to build react jsx babel-helper-builder-react-jsx
+Yeoman generator for React.js projects based on React Starter Kit (ES6+, Babel, React.js, Express, Webpack, BrowserSync) generator-react-fullstack
+Proxies ES6 React components without unmounting or losing their state. react-stand-in
+Transform React components to ICU message format @lingui/babel-plugin-transform-react
+A performant and comprehensive React sticky react-stickynode
+React material design components react-md
+Stack navigator component for React Navigation react-navigation-stack
+Core library for DevExtreme React Components @devexpress/dx-react-core
+replacement for built-in textarea which auto resizes itself react-autosize-textarea
+Provides routing functionality for Inferno inferno-router
+Next generation web framework. omi
+Shared utilities for emotion primitives and native @emotion/primitives-core
+- [Why](#--why) - [Solution](#--solution) - [Demos](#--demos) - [Usage](#--usage-demo) - [Working with new Context api](#working-with-new-context-api) - [Custom render and retrieving props from composed](#custom-render-and-retrieving-props-from-composed) react-adopt
+Monitor if a component is inside the viewport, using IntersectionObserver API react-intersection-observer
+Lightweight React component for animating height using CSS transitions. react-animate-height
+Google maps container google-maps-react
+Composable plugin-based data grid component for React @devexpress/dx-react-grid
+An extremely intuitive, small, and fast functional reactive stream library for JavaScript xstream
+Reactive, component-oriented view layer for modern web interfaces. @xme/vue
+JavaScript Testing utilities for React enzyme-adapter-react-14
+ReactNative build tool for taro @tarojs/rn-runner
+Focus Plugin for DraftJS draft-js-focus-plugin
+A masonry component for React.js react-masonry-component
+A React table component designed to allow presenting thousands of rows of data. fixed-data-table-2
+Image Plugin for DraftJS draft-js-image-plugin
+A universal React-compatible render engine. rax
+A react-like framework based on virtual-dom nervjs
+Warns about potential accessibility issues with your React elements. react-a11y
+Build full featured iOS & Android apps using Framework7 & React framework7-react
+ReactJs component for iDangerous Swiper react-id-swiper
+Browserify transform for JSX (a superset of JS used by React.js) reactify
+A complete routing library for React react-router-nr
+react-load-script enables you to easily create components which depend on third party JS scripts react-load-script
+Swipe and touch handlers for react react-swipeable
+React Twitter Embed Components react-twitter-embed
+Fast front-end web app build tool with simple declarative config, seamless incremental compilation for rapid development, an opinionated pipeline and workflow, and core support for source maps brunch
+A lightbox component for React.js react-image-lightbox
+A complete routing library for React @eliumhq/react-router
+A form input builder and validator for React formsy-react
+TypeScript definitions for enzyme-adapter-react-16 @types/enzyme-adapter-react-16
+Wraps your Cycle.js main function with reducer-driven state management @cycle/state
+Core library for composing asynchronous and event-based operations in JavaScript rx-core
+React component for SimpleBar simplebar-react
+Material Components React Ripple @material/react-ripple
+Provides methods to render HTML strings from Inferno elements inferno-server
+Synthetic HTML DOM for use with parsing within React-RTE synthetic-dom
+Improved syntax for images in markdown remark-images
+React CSS Themr react-css-themr
+An HTML to React parser. html-react-parser
+A complete routing library for React.js react-router-niknik
+Detect device type and render your component according to it react-device-detect
+A React component that injects SVG into the DOM. react-svg
+This is an Express view engine which renders React components on server. It renders static markup and *does not* support mounting those views on the client. express-react-views
+vx voronoi @vx/voronoi
+A complete routing library for React.js jayphelps-react-router
+Material-UI templates for DevExtreme React Grid component @devexpress/dx-react-grid-material-ui
+A simple, declarative, and composable way to fetch data for React components. react-refetch
+Keychain Access for React Native react-native-keychain
+French messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services ra-language-french
+Container Query for React Component react-container-query
+Special fork from Material Design UI components built with React calbertts-material-ui
+Resizable dockable react component react-dock
+React tooltip library built around react-popper react-popper-tooltip
+An enterprise-class UI design language and React-based implementation ziaochina-antd
+<RichTextInput> component for react-admin, useful for editing HTML code in admin GUIs. ra-input-rich-text
+React Native Firebase internal common utilities & helpers. @react-native-firebase/common
+@react-native-firebase/app-types @react-native-firebase/app-types
+A React component wrapper around CountUp.js react-countup
+Fork from Material Design UI components built with React nkbits-material-ui
+Simple customizable component to create side menu react-native-side-menu
+Toolbar Plugin for DraftJS draft-js-inline-toolbar-plugin
+React mentions input react-mentions
+An enterprise-class UI design language and React-based implementation nestia-antd
+A Dropzone Component for ReactJS react-dropzone-component
+Storybook Addon Contexts @storybook/addon-contexts
+Telephone input for React react-phone-number-input
+Material Design UI components built with React syncano-material-ui
+This repo is not official distribution of Gatsby. The original source is <a href='https://www.npmjs.com/package/gatsby'>here</a>. syncano-gatsby
+Hash link scroll functionality for React Router v4 react-router-hash-link
+Material Design UI components built with React @myfintech/material-ui
+An enterprise-class UI design language and React-based implementation antd-meck
+An enterprise-class UI design language and React-based implementation fibery-antd
+React Components that Implement Google's Material Design. mui-legacy
+React Components that Implement Google's Material Design. material-ui-build
+:active pseudo-class with react for mobile rmc-feedback
+Drawer navigator component for React Navigation react-navigation-drawer
+Utility functions and common patterns for MobX mobx-utils
+TypeScript definitions for react-test-renderer @types/react-test-renderer
+A babel plugin that optimizes and inlines SVGs for your react components. babel-plugin-inline-react-svg
+A toolkit for React, Preact & Inferno apps, React libraries and other npm modules for the web, with no configuration (until you need it) nwb
+Material-UI's workspace package material-ui-workspace
+Material Design UI components built with React saikat-material-ui
+The Reactive Extensions for JavaScript @rxjs/rx
+React package for DOM factory methods. react-dom-factories
+Material-UI's workspace package materialuiupgraded
+Lightweight library extras for composing asynchronous and event-based operations in JavaScript rx-lite-extras
+Relay Redux actions to remote Redux DevTools. remote-redux-devtools
+Streaming data, mithril-style mithril-stream
+Material Design UI components built with React @ysmood/material-ui
+Webpack loader to generate docgen information from TypeScript React components. react-docgen-typescript-loader
+Parse and render MDX in a runtime environment @mdx-js/runtime
+A react wrapper for perfect-scrollbar react-perfect-scrollbar
+The default tree view monitor for Redux DevTools redux-devtools-log-monitor
+React component that renders a file input and automatically uploads to an S3 bucket react-s3-uploader
+Presets for naming @bem/sdk.naming.presets
+The scalable code generator that saves you time. hygen
+An enterprise-class UI design language and React-based implementation vsid
+ReactJS Powered Presentation Framework spectacle
+An extensible, open source, Git-based, React CMS for static sites. Reusable congiuration with React as peer. netlify-cms-app
+vx stats box violin @vx/stats
+Official React bindings for Redux react-redux-no-peers
+An enterprise-class UI design language and React-based implementation @edgji/antd
+Stand alone shallowCompare for use in libraries that support shouldComponentUpdate shallow-compare
+JSON Server data provider for react-admin ra-data-fakerest
+Code shared between Cosmos packages react-cosmos-shared2
+Really simple way to add reveal on scroll animation to your React app. react-reveal
+Emoji Plugin for DraftJS draft-js-emoji-plugin
+React styling with base16 color scheme support react-base16-styling
+Core for react-svg-loader react-svg-core
+lottie animation view for React react-lottie
+Resizeable Plugin for DraftJS draft-js-resizeable-plugin
+A resizable and movable dock for Redux DevTools monitors redux-devtools-dock-monitor
+Extended StyleSheets for React Native react-native-extended-stylesheet
+(un)Official React bindings for Redux @acemarke/react-redux
+Material-UI Types - Utility types for Material-UI. @material-ui/types
+React Transform that catches errors inside React components react-transform-catch-errors
+A local storage wrapper for both react-native(AsyncStorage) and browser(localStorage). react-native-storage
+Lightweight library with experimental functions for composing asynchronous and event-based operations in JavaScript rx-lite-experimental
+A composition mixin for loading scripts asynchronously for React react-async-script
+vx threshold @vx/threshold
+Provides support for React's Dev Tools for Inferno inferno-devtools
+JavaScript Testing utilities for React enzyme-adapter-react-13
+React component to wrap content in Collapsible element with trigger to open and close. react-collapsible
+A Component React for Facebook Login react-facebook-login
+A Fast & Light Virtual DOM Alternative hyperhtml
+A simple, powerful, view-agnostic, modular and extensible router router5
+react native root sibling elements manager react-native-root-siblings
+AWS Amplify is a JavaScript library for Frontend and mobile developers building cloud-enabled applications. aws-amplify-react-native
+Lingui preset for React apps @lingui/babel-preset-react
+Lightweight library with testing functions for composing asynchronous and event-based operations in JavaScript rx-lite-testing
+A lightweight react component that acts as a HTML5 input range slider polyfill react-rangeslider
+A realtime Database for the Web rxdb
+React Components for Material Design Lite react-mdl
+Drop content anywhere on the page. react-tether
+Official Sentry SDK for react-native react-native-sentry
+High performance <canvas> rendering for React components react-canvas
+Alignment Plugin for DraftJS draft-js-alignment-plugin
+The Cycle run() function meant to be used with RxJS v5 @cycle/rxjs-run
+Official Inferno bindings for Mobx inferno-mobx
+React tags is a fantastically simple tagging component for your React projects react-tag-input
+editor-core ui component for react rc-editor-core
+Excel-like data grid for React react-datasheet
+Storybook addon to show components README (for React and Vue) storybook-readme
+Simple JS queue with auto run for node and browsers js-queue
+Core library for DevExtreme Reactive Components @devexpress/dx-core
+Minimalistic framework for server-rendered React applications @ffwdmusic/next
+Branch Metrics React Native SDK react-native-branch
+A framework for building interactive 360 experiences with React react-360
+Reactive, component-oriented view layer for modern web interfaces. vue9
+APIs for loading React Cosmos fixtures react-cosmos-fixture
+Visual interface for browsing React Cosmos fixtures react-cosmos-playground2
+React component for Tippy.js @tippy.js/react
+Reactive, component-oriented view layer for modern web interfaces. @sleewoo/vue
+A Select control built with and for ReactJS react-select-crehana
+Simple Loading Bar for Redux and React react-redux-loading-bar
+A React component to easily replicate your page with nice placeholders while the content is loading react-placeholder
+The Next Generation of CSS-in-JS, for Preact projects. preact-emotion
+React HOC for removing styled-system props from underlying DOM elements clean-element
+A framework for building interactive 360 experiences with React react-360-web
+Generic way to compose data containers for React. react-komposer
+Dynamic accessibility analysis for React using axe-core react-axe
+General-purpose virtualized list view built on the cross-platform ReactXP library reactxp-virtuallistview
+react-redux-toastr is a React toastr message implemented with Redux react-redux-toastr
+Transforms CSS-alike text into a React style JSON object webpack-isomorphic-tools
+react native toast like component, pure javascript solution react-native-root-toast
+React loading component react-loading
+React hook for accessing a Redux store. redux-react-hook
+React Storybook: Isolate React Component Development with Hot Reloading. @defunctzombie/storybook
+Plug and play react-Native keyboard spacer view. react-native-keyboard-spacer
+Helpers for using Webpack with React in ASP.NET Core projects. Works in conjunction with the Microsoft.AspNetCore.SpaServices NuGet package. aspnet-webpack-react
+Modern React components, hoc's, and utilities functions. react-fns
+A treeview component without ui to use with react-admin ra-tree-core
+A Select control built with and for ReactJS alexmattson-react-select
+A chip input field using Material-UI. material-ui-chip-input
+A Mapbox GL react native module for creating custom maps @mapbox/react-native-mapbox-gl
+Plugin for ReactXP that provides a navigation framework reactxp-navigation
+A button for React apps react-native-button
+>**Note:** >This is a legacy React addon, and is no longer maintained. > >We don't encourage using it in new code, but it exists for backwards compatibility.   >The recommended migration path is to use [`React.PureComponent`](https://facebook.github.io/re react-addons-pure-render-mixin
+Cross platform ActionSheet. This component implements a custom ActionSheet  and provides the same way to drawing it on the defferent platforms(iOS and Android). Actually, In order to keep the best effect, it still uses the ActionSheetIOS on iOS. react-native-actionsheet
+vx zoom @vx/zoom
+Reactive Extensions for modern JavaScript rxjs-es6
+React Native authentication with the native Touch ID popup. react-native-touch-id
+Open Source Bootstrap Admin Template coreui.io
+ScrollArea component for react react-scrollbar
+A Select control built with and for ReactJS @rafaelfbs/react-select
+React components for efficiently rendering large, scrollable lists and tabular data @adobe/react-virtualized
+GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration). graphql-playground-react
+Utilities and render prop containers relating to selection within the Garden Design System. @zendeskgarden/react-selection
+react-native powered UI library for developing forms writing less code tcomb-form-native
+rnpm plugin that generates a Windows template project rnpm-plugin-windows
+The Atlaskit theme framework @atlaskit/theme
+Create components whose prop changes map to a global side effect react-clientside-effect
+Light weight templates for react -> write html get valid react code react-templates
+React component representing an element with editable contents react-contenteditable
+Transform Markdown(and other static files with transformers) into a SPA website using React. bisheng
+A responsive and accessible date range picker component built with React @kupibilet/react-dates
+Javascript function that triggers browser to save javascript-generated content to a file js-file-download
+Official TinyMCE React Component @tinymce/tinymce-react
+A Select control built with and for ReactJS tmbl-react-select
+A fully accessible and flexible React-powered menu button react-aria-menubutton
+React component for Chartist.js react-chartist
+Rheostat is a www, mobile, and accessible slider component built with React rheostat
+The Hot version of React-DOM @hot-loader/react-dom
+A collection of animated loading indicators for React Native react-native-spinkit
+A react.js reCAPTCHA for Google react-recaptcha
+A date/time picker for react (using bootstrap). This is a react port of: https://github.com/dangrossman/bootstrap-daterangepicker react-bootstrap-daterangepicker
+React Native Uppy UI components @uppy/react-native
+vx box plot @vx/boxplot
+JavaScript persistent data tree with cursors. baobab
+A Select control built with and for ReactJS @phunware/react-select
+Components, fonts, icons, and css files for creating and displaying icons. @xrc-inc/blueprintjs-icons
+A React package that contains icons @atlaskit/icon
+A Select control built with and for ReactJS @piotr-jagielski/react-select
+Cleanly compose multiple component enhancers together with minimal fuss @shopify/react-compose
+A tab bar that switches between scenes, written in JS for cross-platform support react-native-tab-navigator
+Omi for old browsers(IE8+ and mobile browsers). omio
+React Navigation sl-react-navigation
+A Select control built with and for ReactJS @kabbi/react-select
+Chat UI for iOS and Android React-Native apps react-native-gifted-messenger
+Neater control statements (if/for) for jsx babel-plugin-jsx-control-statements
+A Select control built with and for ReactJS react-select-fork
+A platform-agnostic drawer layout. Pure JavaScript implementation on iOS and native implementation on Android. Why? Because the drawer layout is a useful component regardless of the platform! And if you can use it without changing any code, that's perfect react-native-drawer-layout
+HTML5 backend for React DnD @mozillareality/react-dnd-html5-backend
+A Select control built with and for ReactJS react-select-extended
+UI SDK based on react-native react-web-sdk
+The only pure React Native Native iOS and Android loading spinner (progress bar indicator) overlay react-native-loading-spinner-overlay
+The React VR CLI for project setup react-vr-cli
+A simple responsive react modal react-responsive-modal
+A Select control built with and for ReactJS @iwano/react-select
+Rescale local images with React Native react-native-image-resizer
+Lightweight IE6 compatible library extras for composing asynchronous and event-based operations in JavaScript rx-lite-extras-compat
+Lightweight older browser compatible library with coincidence functions for composing asynchronous and event-based operations in JavaScript rx-lite-coincidence-compat
+React Native Elements & UI Toolkit @pru-rt/react-native-elements
+Lightweight library with backpressure functions for composing asynchronous and event-based operations in JavaScript rx-lite-backpressure
+A Select control built with and for ReactJS @samginn/react-select
+vx geo @vx/geo
+Lightweight older browser compatible library with experimental functions for composing asynchronous and event-based operations in JavaScript rx-lite-experimental-compat
+Lightweight older browser compatible library with time-based functions for composing asynchronous and event-based operations in JavaScript rx-lite-time-compat
+Official React bindings for Redux @exocortex/react-redux
+Lightweight library with time-based functions for composing asynchronous and event-based operations in JavaScript rx-lite-time
+Lightweight older browser compatible library with aggregate functions for composing asynchronous and event-based operations in JavaScript rx-lite-aggregates-compat
+Lightweight library with asynchronous functions for composing asynchronous and event-based operations in JavaScript rx-lite-async
+A Select control built with and for ReactJS react-select-hydrationlabs
+React Native Popup Dialog for IOS & Android. react-native-popup-dialog
+React Image is an <img> tag replacement for react, featuring preloader and multiple image fallback support react-image
+Lightweight older browser compatible library with testing functions for composing asynchronous and event-based operations in JavaScript rx-lite-testing-compat
+Next generation of react-bootstrap-table react-bootstrap-table-next
+Lightweight older browser compatible library with backpressure functions for composing asynchronous and event-based operations in JavaScript rx-lite-backpressure-compat
+Core testing library for composing asynchronous and event-based operations in JavaScript rx-core-testing
+Lightweight CSS framework based on Google's Material Design guidelines muicss
+Bootstrap 3 components built with React react-bootstrap-zoqer
+Lightweight library with coincidence functions for composing asynchronous and event-based operations in JavaScript rx-lite-coincidence
+Lightweight library with join pattern functions for composing asynchronous and event-based operations in JavaScript rx-lite-joinpatterns
+Lightweight older browser compatible library with asynchronous functions for composing asynchronous and event-based operations in JavaScript rx-lite-async-compat
+A Select control built with and for ReactJS @bmplatform/react-select
+Lightweight older browser compatible library with join pattern functions for composing asynchronous and event-based operations in JavaScript rx-lite-joinpatterns-compat
+Lightweight older browser compatible library with virtual time functions for composing asynchronous and event-based operations in JavaScript rx-lite-virtualtime-compat
+Bootstrap 3 components built with React react-bootstrap-15
+Print React components in the browser react-to-print
+A Select control built with and for ReactJS @expertsinside/react-select
+A Select control built with and for ReactJS @atis/react-select
+Core binding library for composing asynchronous and event-based operations in JavaScript rx-core-binding
+Minimalistic framework for server-rendered React applications weld-next
+A Select control built with and for ReactJS taylor1791-react-select-fork
+>**Note:** >This is a legacy React addon, and is no longer maintained. > >We don't encourage using it in new code, but it exists for backwards compatibility.   >The recommended migration path is to use [`immutability-helper`](https://github.com/kolodny/im react-addons-update
+React Hooks and Suspense-ready Components for Web API's and elements the-platform
+library for turn-based games boardgame.io
+Compare, format, diff and serialize React trees with Concordance @concordance/react
+React Native component for creating animated, circular progress with react-native-svg react-native-circular-progress
+GoodData React Components @gooddata/react-components
+customizable multi-action-button component for react-native react-native-action-button
+A Select control built with and for ReactJS medipass-react-select
+React Mobile DatePicker Component for web and react-native rmc-date-picker
+A Select control built with and for ReactJS bcv-react-select-fork
+Multiple applications, one page single-spa
+Render interfaces using pure functions and virtual DOM deku
+A Select control built with and for ReactJS moneymonk-react-select
+Official React bindings for Redux react-redux-no-children
+A safe way to consume React Native NativeModules react-native-safe-module
+flatpickr for React react-flatpickr
+A React component to inline your SVGs. react-svg-inline
+React DOM wrapper r-dom
+React Navigation @jonny/react-navigation
+Zero-configuration framework-agnostic static prerendering for SPAs react-snap
+A suite of react components to help create a UI quickly for elasticsearch searchkit
+A Select control built with and for ReactJS @intellihr/react-select
+Minimalistic framework for server-rendered React applications @worona/next
+A Select control built with and for ReactJS porch-react-select
+Convert CSS text to a React Native stylesheet object taro-css-to-react-native
+A simple React component capable of building HTML forms out of a JSON schema. react-bsonschema-form
+ReactJS / HammerJS integration. Support touch events in your React app. rc-hammerjs
+Pre-build version of JavaScriptCore to be used by React Native apps jsc-android
+Text and TextInput with mask for React Native applications react-native-masked-text
+vx heatmap @vx/heatmap
+A saga enabling realtime updates for react-admin ra-realtime
+Highly customizable stock charts with ReactJS and d3 react-stockcharts
+React Navigation ark-react-native-navigation
+Modify deep object properties without modifying the original object (immutability). Works great with React and Redux. object-path-immutable
+React components for efficiently rendering large, scrollable lists and tabular data @ahutchings/react-virtualized
+BEM React ClassName @bem-react/classname
+Walk a React element tree, executing a provided function against each node. react-tree-walker
+Minimalistic framework for server-rendered React applications @cloudkite/next
+A ScrollView-like component with parallax and sticky header support react-native-parallax-scroll-view
+[![Build Status](https://travis-ci.org/styleguidist/react-docgen-typescript.svg)](https://travis-ci.org/styleguidist/react-docgen-typescript) react-docgen-typescript
+Omi ui. omiu
+A Select control built with and for ReactJS @entelo/react-select
+A service for server-side rendering your JavaScript views hypernova
+A library for interacting with the app.json @expo/config
+vx marker @vx/marker
+vx drag @vx/drag
+React Native Contacts (android & ios) react-native-contacts
+React Native Navigation - truly native navigation for iOS and Android @hedviginsurance/react-native-navigation
+Minimalistic framework for server-rendered React applications next-clone
+Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development electron-react-boilerplate
+Minimalistic framework for server-rendered React applications @upsidetravel/next
+FusionJS entry point for React universal rendering fusion-react
+React Storybook: Isolate React Component Development with Hot Reloading. kadira-storybook
+Routing and navigation for your React Native apps @react-navigation/react-navigation-experimental
+Minimalistic framework for server-rendered React applications o2team-next
+Counter Plugin for DraftJS draft-js-counter-plugin
+Minimalistic framework for server-rendered React applications next-alt
+React Native components react-native-ui-kitten
+A spring that solves your animation problems. react-motion-fork
+router5 helpers for React react-router5
+The official Semantic-UI-React integration. @amilajack/semantic-ui-react
+A thin layer over react-motion for animating routes in react-router. react-router-transition
+Hashtag Plugin for DraftJS draft-js-hashtag-plugin
+Immutable version of dot-prop with some extensions dot-prop-immutable
+Official React bindings for Redux @jkottnauer/react-redux
+Better radio buttons. react-radio-group
+React Native support for React Navigation @react-navigation/native
+Official minimal [Highcharts](https://www.highcharts.com/) wrapper for React. highcharts-react-official
+React.js powered UI library for developing forms writing less code tcomb-form
+normalized JS Object and JSON message and event protocol for node.js, vanialla js, react.js, components, actions, stores and dispatchers js-message
+> Style and render primitive interfaces across multiple targets with emotion @emotion/primitives
+Fast 3kb React alternative with the same ES6 API. Components & Virtual DOM. mkb-preact
+ice react component template @icedesign/ice-react-component-template
+Accessible Accordion component for React react-accessible-accordion
+React components for efficiently rendering large, scrollable lists and tabular data react-virtualized-lukasz
+Material Components React Button @material/react-button
+React components for efficiently rendering large, scrollable lists and tabular data @kupibilet/react-virtualized
+Turn JSX elements into exploded React objects @babel/plugin-transform-react-inline-elements
+A driver for HTML strings based on Snabbdom and the DOM driver @cycle/html
+Customizable Google Places autocomplete component for iOS and Android React-Native apps react-native-google-places-autocomplete
+Parcel plugin for MDX @mdx-js/parcel-plugin-mdx
+React components for efficiently rendering large, scrollable lists and tabular data @mnquintana/react-virtualized
+Fast 3kb React alternative with the same ES6 API. Components & Virtual DOM. kb-preact
+A fully accessible and flexible React modal built according WAI-ARIA Authoring Practices react-aria-modal
+A framework for building native desktop apps using React react-native-desktop
+Fast 3kb React alternative with the same ES6 API. Components & Virtual DOM. @openfork/preact
+Babel plugin to add displayName to styletron-react components babel-plugin-transform-styletron-display-name
+Core library for the DevExtreme Reactive Grid component @devexpress/dx-grid-core
+Beautiful and accessible drag and drop for lists with React react-beautiful-dnd-next
+A React framework for building text editors. @rej156/draft-js
+Multiline text ellipsis for react react-dotdotdot
+A circular progress indicator component react-circular-progressbar
+Element UI for React element-react
+A React binding of mapbox-gl-js react-mapbox-gl
+Management CLI for the CodePush service code-push-cli
+ice react block template @icedesign/ice-react-block-template
+A GraphQL simple data provider for react-admin ra-data-graphql-simple
+React-fiber renderer for THREE.js react-three-fiber
+React Tooltip rmc-tooltip
+Tiny & fast Component-based virtual DOM framework. nekr-preact
+Action Logger addon for react-native storybook @storybook/addon-ondevice-actions
+Unified CSSinJS theming solution for React theming
+A ListView with rows that swipe open and closed. react-native-swipe-list-view
+Beautiful, accessible drag and drop for lists with React.js bolser-react-beautiful-dnd
+React Native for Web @cross2d/react-native-web
+Fast 3kb React alternative with the same ES6 API. Components & Virtual DOM. kobe-preact
+ice react app template @icedesign/ice-react-app-template
+Example of an isomorphic (universal) webapp using react redux and hot reloading react-redux-universal-hot-example
+Map With A Info Window @icedesign/map-with-a-info-window
+React charts @autopilot/recharts
+Clones a value, recursively extracting File, Blob and ReactNativeFile instances with their object paths, replacing them with null. FileList instances are treated as File instance arrays. extract-files
+Map With A Marker @icedesign/map-with-a-marker
+Extensible route-based routing for React applications found
+React webcam component react-webcam
+Bringing Material Design to React Native react-native-material-kit
+Simple customizable navbar component for react-native react-native-navbar
+Material Components React Floating Label @material/react-floating-label
+A powerful Bootstrap-like responsive grid system for React. react-grid-system
+React view for Cerebral @cerebral/react
+Toolkit for building really interactive UIs with React reakit
+react vue template compiler vue-native-template-compiler
+Material Componens React Notched Outline @material/react-notched-outline
+Blazing fast zero-runtime CSS in JS library linaria
+Material Components React Line Ripple @material/react-line-ripple
+A decorator for script lazy loading on react component react-async-script-loader
+React Native for Web nt-react-native-web
+Renders static content efficiently by allowing React to short-circuit the reconciliation process. react-static-container
+vx brush @vx/brush
+A simple yet functional GraphQL client. @rmosolgo/apollo-client
+React component to render collection of items separated by space or other separator react-group
+String#replace for React components react-string-replace
+Typing animations with React react-typist
+tagged template string virtual dom builder hyperx
+Suite of utilities for testing Inferno applications inferno-test-utils
+Clipboard.js wrapper for ReactJS react-clipboard.js
+Generates passages of lorem ipsum text suitable for use as placeholder copy in web pages, graphics, and more. Works in the browser, NodeJS, and React Native. lorem-ipsum
+Reactotron terminal mode engage! reactotron-cli
+Video Plugin for DraftJS draft-js-video-plugin
+A handler for react-docgen that tries to infer the displayName of a component react-docgen-displayname-handler
+Create React App Configuration Override, an easy and comprehensible configuration layer for create-react-app v2. @craco/craco
+Responsive image component to fit perfectly itself. react-native-fit-image
+React.js toastr component react-toastr
+PostCSS syntax for parsing styled components postcss-styled
+Font Awesome icons as React components react-fa
+React Native bridge for firebase cloud messaging (FCM) react-native-fcm
+Lightweight React bindings for MobX based on React 16.8 and Hooks mobx-react-lite
+Responsive React Flexbox Grid System reflexbox
+A higher order component for loading components with promises maintained-react-loadable
+A plotly.js react component from Plotly react-plotly.js
+React Mobile Picker Component(web and react-native) rmc-picker
+Experimental React Renderer that draws 2D UI to a WebGL context react-webgl
+Simple, easy to use component for pagination. Compatible with bootstrap paginator stylesheets react-js-pagination
+ice react component template ice-react-component-template
+Drag and drop so simple it hurts react-dragula
+A higher order component for loading components with promises @humblespark/react-loadable
+ice react layout template @icedesign/ice-react-layout-template
+Toolbar Plugin for DraftJS draft-js-side-toolbar-plugin
+A treeview component with material-ui to use with react-admin ra-tree-ui-materialui
+Inline SVG wrapper component for React svg-inline-react
+A React renderer for Sketch.app @mathieudutour/react-sketchapp
+One stop install for all vx packages @vx/vx
+Reactotron desktop mode engage! reactotron-app
+A React component built on top of Sortable (https://github.com/SortableJS/Sortable). react-sortablejs
+A React framework for building text editors. bloodyowl-draft-js-iframe-fix
+React package for creating custom renderers. react-reconciler
+Create new react native files that fit the IR workflow react-native-ignite
+Wrapper component that detects element resize and passes new dimensions down the tree. Based on [element-resize-detector](https://github.com/wnr/element-resize-detector) react-container-dimensions
+A react-native dropdown component for both iOS and Android. react-native-modal-dropdown
+<!-- Name --> <h1 align="center">Event Stack</h1> @semantic-ui-react/event-stack
+hoc for receiving gestures react-with-gesture
+Beautiful, accessible drag and drop for lists with React.js @antonandirene/react-beautiful-dnd
+Internationalize React apps. Not only for React.Component but also for Vanilla JS. react-intl-universal
+React framework with server render for blazing fast page load and seamless transitions between pages in the browser. react-server
+A React framework for building text editors. @marudor/draft-js
+TypeScript transformer for react-native react-native-typescript-transformer
+React Native Mapview component for iOS + Android cached-react-native-maps
+Example block @react-materials/example-block-block
+directed graph react component react-digraph
+Create new react native files that fit the IR workflow generator-react-native-ignite
+React Native for Web react-native-web-buffer
+React primitive UI components built with styled-system @rebass/emotion
+A React framework for building text editors. @loominc/draft-js
+React [higher-order component](https://gist.github.com/sebmarkbage/ef0bf1f338a7182b6775) to get dimensions of container react-dimensions
+vx annotation @vx/annotation
+Tourist Guide into your React Components reactour
+Redux binding for React Intl react-intl-redux
+Material Components React Text Field @material/react-text-field
+The most sophisticated cross-platform background location-tracking & geofencing module with battery-conscious motion-detection intelligence react-native-background-geolocation
+Babel preset for React Native applications babel-preset-react-native
+redux store enhancer which allows batching subscribe notifications. redux-batched-subscribe
+Highlight select fragments of texts react-highlighter
+State Management Tailored-Made for JS Applications @datorama/akita
+A React framework for building text editors. @activepipe/draft-js
+The React 360 CLI for project setup react-360-cli
+React component to wrap non SSR components. react-no-ssr
+Universal React avatar component makes it possible to generate avatars based on user information. react-avatar
+A React component for swipeable views react-swipeable-views-native
+Map With A Marker @react-materials/map-with-a-marker
+A zero-configuration static pre-renderer for React apps. Starting by targeting Create React App (because it's great) react-snapshot
+The listview that you need and deserve. It was built for performance, uses cell recycling to achieve smooth scrolling. recyclerlistview
+Easily inject checkout.js as a react component. Will load the script on demand and supports all the options from stripe docs. react-stripe-checkout
+I will import your component, and help to handle it react-imported-component
+React port of slick carousel react-slickest
+<p align="center">   <a href="https://bit.dev"><img src="https://storage.googleapis.com/bit-docs/component-discovery-bit-react-gif.gif"></a> </p> bit-bin
+A React framework for building text editors. @mathieumg/draft-js
+Executes React Native application javascript in a node process. nuclide-react-native-node-executor
+React Native Navigation - truly native navigation for iOS and Android react-native-navigation-dank
+React Native Mapview component for iOS + Android react-native-maps-tootsweet
+A React framework for building text editors. @micabe/draft-js
+A suite of react components rsuite
+Easy peasy lemon squeezy iframes with react react-iframe
+Utility function for decorating a React component with any props decorate-component-with-props
+A React framework for building text editors. @tdehart/draft-js
+A cross browser solution to scrolling during drag and drop. react-dnd-scrollzone
+demo block @react-materials/demo-block-block
+A React framework for building text editors. draft-js-mod
+Drop-in for estraverse that enables traversal over React's JSX nodes. estraverse-fb
+A library for building web apps with React Native compatible API. react-web
+React Native OneSignal Component react-native-onesignal
+The React Native macOS CLI tools react-native-macos-cli
+A React framework for building text editors. @classboxteam/draft-js
+A React Native library for Fabric, Crashlytics and Answers react-native-fabric
+Interface for react-with-styles outputting CSS react-with-styles-interface-css
+Electrode NodeJS/React Universal Application Archetype electrode-archetype-react-app
+D3 components for React react-d3-components
+A component to initialize Intercom in your application react-intercom
+Component lifecycle HOC for React and React Native @hocs/with-lifecycle
+Queue animation component for react rc-queue-anim
+A higher order component for loading components with promises @anilanar/react-loadable
+A simple React component capable of building HTML forms out of a JSON schema. @vestwell/react-jsonschema-form
+Automatically binds methods defined within a component's Class to the current object's lexical `this` instance (similarly to the default behavior of React.createClass). react-autobind
+Forms in React, without tears @johnrom/formik
+The less is more, modular, functional reactive programming library flyd
+React charts @barbuza/recharts
+XState tools for React @xstate/react
+Styleable set of components for React Native applications @shoutem/ui
+React Native Router using Flux architecture react-native-router-native
+A higher order component for loading components with promises @iamstarkov/react-loadable
+Datatables for React using Material-UI mui-datatables
+Compile Markdown to React with remark remark-react
+it's the pagination addon for react-bootstrap-table2 react-bootstrap-table2-paginator
+Simple no-frills code editor with syntax highlighting react-simple-code-editor
+Map With A Info Window @react-materials/map-with-a-info-window
+React Native bindings for Lottie @bondparkerbond/lottie-react-native
+A Collection of Color Pickers from Sketch, Photoshop, Chrome & more @jedwatson/react-color
+Manage state in storybook stories @sambego/storybook-state
+Use React in Vue and Vue in React vuera
+English messages for ra-tree, an addon providing tree components for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services ra-tree-language-english
+Undo Plugin for DraftJS draft-js-undo-plugin
+Router5 integration with redux redux-router5
+Converts HTML to JSX for use with React htmltojsx
+A component to render your react app with no static HTML. @shopify/react-html
+Configurable FLIP animation helpers for React react-flip-toolkit
+A fork of react-select with support for option groups react-select-plus
+Drag and Drop for React @mozillareality/react-dnd
+A simple alert to notify users about new chat messages, something went wrong or everything is ok. react-native-dropdownalert
+React Native Navigation - truly native navigation for iOS and Android fix-travis-react-native-navigation
+Webpack plugin to generate docgen information from Typescript React components. react-docgen-typescript-webpack-plugin
+Material Components React Material Icon @material/react-material-icon
+Fork from react-dates. A responsive and accessible date range picker component built with React cwt-react-dates
+Customizable charts (Line, Bar, Area, Pie, Circle, Progress) for React Native react-native-svg-charts
+React Native bridge for using native Google Analytics libraries on iOS and Android react-native-google-analytics-bridge
+Get status bar height for React Native App react-native-status-bar-height
+Gatsby plugin that automatically creates pages from React components in specified directories gatsby-plugin-page-creator
+Responsive Justified React Image Gallery Component react-photo-gallery
+Open Source Bootstrap Admin Template @coreui/ajax
+Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations. @codebet/react-intl
+Animate React with ease @elbstack/react-spring
+Highly customizable notification snackbars (toasts) that can be stacked on top of each other notistack
+Facebook components like a Login button, Like, Share, Comments, Embedded Post/Video, Messenger Chat and others react-facebook
+React Native Navigation - truly native navigation for iOS and Android react-native-navigation-build-fix
+A library for converting plain HTML to DraftJS Editor content. Build for use with **[react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg)**. html-to-draftjs
+React Native Navigation - truly native navigation for iOS and Android @brandingbrand/react-native-navigation
+Automatic breadcrumbs for react-router react-breadcrumbs
+An unfair headstart for your React Native apps. ignite-cli
+React ART is a JavaScript library for drawing vector graphics using React. It provides declarative and reactive bindings to the ART library. Using the same declarative API you can render the output to either Canvas, SVG or VML (IE8). react-art
+Base component for touchable elements react-native-material-ripple
+Components for interacting with dates and times @xrc-inc/blueprintjs-datetime
+A react native module to show toast like android, it works on iOS and Android. react-native-easy-toast
+weui for react react-weui
+The React Native Desktop CLI tools react-native-desktop-cli
+Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling. @2hats/react-native-vector-icons
+JavaScript Testing utilities for React enzyme-fresh
+An enterprise-class UI design language and React-based implementation ant-design-pro-test
+Declarative tracking for React apps. react-tracking
+TextInput effects for react native react-native-textinput-effects
+A Graphcool data provider for react-admin ra-data-graphcool
+A set of React components implementing Google's Material Design specification with the power of CSS Modules. @foo-software/react-toolbox
+React Native Mapview component for iOS + Android react-native-maps-with-navigation
+Render HTML as React element, possibly replacing dangerouslySetInnerHTML react-render-html
+Fork from react-dates. A responsive and accessible date range picker component built with React wm-react-dates
+swipe out ui component for react(web and react-native) rc-swipeout
+kepler.gl is a webgl based application to visualize large scale location data in the browser kepler.gl
+Neutrino preset for adding Airbnb's JS ESLint config for React, following the Airbnb styleguide @neutrinojs/airbnb
+CLI for easily bootstrapping modern react libraries create-react-library
+Easy, light, flexible tree view made with React. react-treeview
+Interactive table generation JavaScript library tabulator-tables
+React charts @lewiscowper/recharts
+A document head manager for React @newhippo/react-helmet
+Fluxible addons for use with React fluxible-addons-react
+Immutable, reactive Flux architecture. UI Agnostic. nuclear-js
+Tweak React components in real time. @frielforreal/react-hot-loader
+Android and iOS supported pure JS slider component with multiple markers for React Native @ptomasroos/react-native-multi-slider
+A component and set of utilities for performing effects within a universal React app @shopify/react-effect
+A React component for rendering Markdown with remarkable react-remarkable
+extensible popup/context menu for react native react-native-popup-menu
+React port of slick carousel react-slick-ssr
+Make beautiful, animated loading skeletons that automatically adapt to your app. react-loading-skeleton
+A mock backend for testing React DnD apps @mozillareality/react-dnd-test-backend
+A state machine abstraction for React react-automata
+React Native bindings for Lottie (fork to fix xCode 10 waiting for upstream to release merged PR) @bam.tech/lottie-react-native
+Simple JS stack with auto run for node and browsers easy-stack
+Simple module to localize the React interface using the same syntax used in the ReactNativeLocalization module, use 'npm run build' before publishing react-localization
+JavaScript barcode generator supporting over 90 types and standards. bwip-js
+React draggable component react-draggable-elements
+vue native core vue-native-core
+React component for Split.js react-split
+React component to render math using MathJax react-mathjax
+React charts recharts-renderkey
+French messages for ra-tree, an addon providing tree components for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services ra-tree-language-french
+JSS plugin for TC39 Observables support jss-plugin-rule-value-observable
+A document head manager for React react-helmet-dvpnt
+Yeoman generator for using React with Webpack via Babel generator-react-webpack
+Learn the most (and not only) design pattern used while developing with React react-in-patterns
+Vue directive to react on clicks outside an element v-click-outside
+The standard Ratings component for React Native react-native-ratings
+Haul is a new command line tools for React Native haul
+React Native Firebase - Analytics @react-native-firebase/analytics
+**PSA**: React Diagrams is currently getting a bit of a rewrite to enable much more advanced features. To see the new foundation WIP visit [https://github.com/projectstorm/react-canvas](https://github.com/projectstorm/react-canvas). storm-react-diagrams
+Markdown in components, components in markdown react-markings
+Lona cross-platform code compiler lonac
+Medium.com style image zoom for React react-medium-image-zoom
+MIP React charts mip-recharts
+A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Sto @react-native-firebase/app
+React Native Mapview component for iOS + Android react-native-maps-init-region
+Easy to use declarative transitions and animations for React Native @micimize/react-native-animatable
+Generates gorgeous HTML reports from mochawesome reporter. mochawesome-report-generator
+The React Native Router Flux CLI tools react-native-router-flux-cli
+Create elegant HTML email templates using React. react-html-email
+A React Native component providing images selection from camera roll react-native-camera-roll-picker
+CSS underpinnings of blueprint.js, packaged as global styled components @nteract/styled-blueprintjsx
+React component for entering and validating international telephone numbers react-telephone-input
+Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations. react-intl-v2
+Reactified particles.js react-particles-js
+Keep your MobX state in sync with react-router mobx-react-router
+A mirror of Facebook's dev-expression Babel plugin babel-plugin-dev-expression
+Build powerful React Native and React web apps that scale from hundreds to tens of thousands of records and remain fast @nozbe/watermelondb
+A globalize.js localizer for react-widgets react-widgets-globalize
+A development tool to explore, inspect, and diagnose your React Native apps. reactotron-react-native-under-37
+Material dropdown react-native-material-dropdown
+Webpack plugin to automatically display an error overlay in your application. error-overlay-webpack-plugin
+A higher order component decorator for forms using Redux and React @cqingwang/redux-form
+Normalize.css for styled-components CSS-in-JS library styled-normalize
+React Bootstrap 4 components ahoy-reactstrap
+A higher order component decorator for forms using Redux and React. HOTFIX FORK. redux-form-hotfix-fork
+A set of React components implementing Google's Material Design specification with the power of CSS Modules. @nxtedition/react-toolbox
+Sample reusable React error boundary component for React 16+ react-error-boundary
+Async-rendering & data-fetching for universal React applications react-resolver
+A document head manager for React react-helmet-prepend
+A higher order component decorator for forms using Redux and React @stackworx/redux-form
+React charts @jakusim/recharts
+React components, as used on WordPress.com @automattic/simple-components
+Keep the screen from going to sleep. iOS and Android. react-native-keep-awake
+A draggable and resizable grid layout with responsive breakpoints, for React. react-grid-layout-horizontal-compact
+A simple Time-Ago component for React @nteract/timeago
+Front-end framework based on react, redux, react-redux, react-router and redux-saga, inspired by elm and choo. test-sorrycc-2
+react native image pan zoom react-native-image-pan-zoom
+react-trend React component react-trend
+A react supported html attributes store keyed by their tags react-html-attributes
+A JavaScript library dedicated to graph drawing. sigma-react
+Front-end framework based on react, redux, react-redux, react-router and redux-saga, inspired by elm and choo. test-sorrycc-3
+Beautiful credit cards for your payment forms react-credit-cards
+A <Modal/> component for react-native @bam.tech/react-native-modalbox
+ReactJS charts using d3 react-d3
+A higher order component decorator for forms using Redux and React @krzysztofkarol/redux-form
+Offline and Online components for React react-detect-offline
+Front-end framework based on react, redux, react-redux, react-router and redux-saga, inspired by elm and choo. test-package-sorrycc
+A Picker component for React Native which emulates the native <select> interfaces for each platform react-native-picker-select
+A draggable and resizable grid layout with responsive breakpoints, for React. @davjones0/react-grid-layout
+Drag and drop lists. react-movable
+this package is a forked from https://github.com/skv-headless/react-native-scrollable-tab-view why fork? @devabx/react-native-scrollable-tab-view
+A cross-platform (iOS / Android), selector/picker component for React Native that is highly customizable and supports sections. react-native-modal-selector
+Easy to Maintain Open Source Documentation Websites @docusaurus/core
+A react native PDF view component, support ios and android platform react-native-pdf
+React Native WebView Javascript Bridge react-native-webview-bridge
+TEMPORARY FORK @fictiv/redux-form
+A draggable and resizable grid layout with responsive breakpoints, for React. Customized fork. jx-react-grid-layout
+Collection of components and render prop containers relating to Tooltips in the Garden Design System @zendeskgarden/react-tooltips
+A responsive and accessible date range picker component built with React @mateioprea/react-dates
+React Native Debugger for Atom IDE. atom-ide-debugger-react-native
+Compile Vue component to React Native vue-native-scripts
+Libs shared between React Cosmos packages react-cosmos-shared
+A higher order component decorator for forms using Redux and React @selvagsz/redux-form
+A set of React components implementing Google's Material Design specification with the power of CSS Modules. react-toolbox-beta
+Adaptive image component react-ideal-image
+Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations. react-intl-fork
+A responsive and accessible date range picker component built with React @jayswain/react-dates
+A set of React components implementing Google's Material Design specification with the power of CSS Modules. @guidobonnet/react-toolbox
+A draggable and resizable grid layout with responsive breakpoints, for React. @jwhite0042/react-grid-layout
+A truly modular frontend framework mercury
+React input mask react-imask
+Transforms member style imports (import {x} from 'y') into default style imports (import x from 'y/lib/x') babel-plugin-transform-imports
+This library provides a set of common React components for use with the PatternFly reference implementation. patternfly-react
+React Native Firebase - Cloud Functions @react-native-firebase/functions
+RMWC: A React wrapper for Material Design (Web) Components rmwc
+React port of slick carousel @poky85/react-slick
+Activity detection for React.js react-idle-timer
+A simple react alert component react-alert
+A draggable and resizable grid layout with responsive breakpoints, for React. react-grid-layout-stable-15
+Material Components React List @material/react-list
+Simple multiline ellipsis component for React.JS react-lines-ellipsis
+Javascript markdown parsing, made simple simple-markdown
+React Native Mapview component for iOS + Android bongga-rn-google-maps
+A higher order component decorator for forms using Redux and React fundera-redux-form
+A responsive and accessible date range picker component built with React @elbstack/react-dates
+Theme provider for react and react-naitve applications @callstack/react-theme-provider
+A draggable and resizable grid layout with responsive breakpoints, for React. react-grid-layout-stable-14
+Swiper component for React Native. react-native-swiper-grid
+A higher order component decorator for forms using Redux and React intercloud-redux-form
+React-based typeahead and typeahead-tokenizer react-typeahead
+Syncronize scroll positions across multiple scrollable containers react-scroll-sync
+A draggable and resizable grid layout with responsive breakpoints, for React. react-grid-layout-fix-compact
+Rheostat with Preact as React replacement preact-rheostat
+react vue render helper vue-native-helper
+Swiper component for React Native. react-native-swiper-battere
+A rating react component with custom symbols react-rating
+React Native Router using Flux architecture @jkottnauer/react-native-router-flux
+Asynchronous, persistent, key-value storage system for React Native. @react-native-community/async-storage
+Manage all translations based on the extracted messages of the babel-plugin-react-intl react-intl-translations-manager
+React easy swipe - Easy handler for common touch operations react-easy-swipe
+Declarative Version of React.Component @reactions/component
+Lazy-loading React image component with optional support for the blur-up effect. gatsby-image
+A <YouTube/> component for React Native. react-native-youtube
+Render an SVG Image from an URL react-native-svg-uri
+React port of slick carousel - with some fixes react-slick-slider-mod
+Set of higher-order components to turn any list into a sortable, touch-friendly, animated list react-sortable-hoc-axis
+Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations. @meiko/react-intl
+inline css for component systems glamor-react
+Idiomatic, modular, testable, isomorphic Flux. No singletons required. flummox
+Redux for Nerv.js nerv-redux
+React draggable component dmp-react-draggable-fork
+Lightweight keydown wrapper for React components react-keydown
+A Camera component for React Native. Also reads barcodes. @chatium/react-native-camera
+Easy peasy global state for React easy-peasy
+A set of React components implementing Google's Material Design specification with the power of CSS Modules. @bodetree/react-toolbox
+A draggable and resizable grid layout with responsive breakpoints, for React, with isStateless prop added to store layout not in state, but in external source of trooth react-grid-layout-stateless
+A React Native component for generating and displaying interactive star ratings react-native-star-rating
+General utils for react-md. @react-md/utils
+A draggable and resizable grid layout with responsive breakpoints, for React. @mapd/react-grid-layout
+react-native qrocode generator react-native-qrcode
+The most complete chat UI for React Native chadmg-react-native-gifted-chat
+Material Components React Checkbox @material/react-checkbox
+Components relating to text fields in the Garden Design System @zendeskgarden/react-textfields
+Babel plugin to transform import() into its Universal counterpart babel-plugin-universal-import
+BEM React Core @bem-react/core
+Standalone version of the AutoSizer component from react-virtualized react-virtualized-auto-sizer
+The base package for including a theme for react-md. This is required by most other packages. @react-md/theme
+React port of slick carousel woowa-react-slick
+A storybook decorator that allows you to use routing-aware components in your stories. storybook-react-router
+A Camera component for React Native. Also reads barcodes. @nitrog7/react-native-camera
+The most complete chat UI for React Native @sherwinw/react-native-gifted-chat
+Core page middleware for React Server react-server-core-middleware
+Material Components React Select @material/react-select
+Swiper component for React Native. nas-react-native-swiper
+AWS Mobile AppSync SDK for JavaScript - React and React Native components aws-appsync-react
+it's a column filter addon for react-bootstrap-table2 react-bootstrap-table2-filter
+A tree data structure that is always updated from the root, making easier to think in a reactive way. freezer-js
+Swiper component for React Native. react-native-swiper-forkdots
+Unicode to ACSII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI. transliteration
+A draggable and resizable grid layout with responsive breakpoints, for React. Customized fork. jx-grid-layout-react
+A pluggable container for isomorphic flux applications fluxible
+Render React DOM into a new context react-gateway
+Simple react.js component for a search input, providing a filter function. react-search-input
+React state management with a minimal API. Made with ES6 Proxies. react-easy-state
+Coffeescript compiler wrapper adding coffee-react-transform CJSX support coffee-react
+A <Video /> element for react-native @datacamp/react-native-video
+React Markdown Editor react-mde
+Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling. universal-vector-icons
+Office UI Fabric React website resources project @uifabric/fabric-website-resources
+React Native Bluetooth Low Energy library react-native-ble-plx
+A completely customizable framework for building rich text editors. @kgdev/slate
+React port of slick carousel react-slick-offset
+The code in this package has moved. We recommend you to use `TransitionGroup` from [`react-transition-group`](https://github.com/reactjs/react-transition-group) instead. react-addons-transition-group
+wix-style-react wix-style-react
+The card component which has a motion of flip for React Native(iOS/Android) react-native-flip-card
+React port of slick carousel react-slick-adaptive-height-fixed
+A powerful React Native swipe component react-native-swipeable
+[![Build Status](https://travis-ci.org/Jmeyering/react-docgen-annotation-resolver.svg?branch=master)](https://travis-ci.org/Jmeyering/react-docgen-annotation-resolver) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?st react-docgen-annotation-resolver
+React port of slick carousel react-slick-ie8
+A customizable countdown component for React. react-countdown-now
+React port of slick carousel react-slick-forked
+Fork of the React port of slick carousel to expose additional methods needed for specifc use cases react-slick-smf
+The most complete chat UI for React Native react-native-gifted-chat-assac
+React port of slick carousel react-slick-v2
+Looped carousel for React Native react-native-looped-carousel
+Universal data fetching and route lifecycle management for React etc. redial
+React component for star (or any other icon based) ratings react-star-rating-component
+Displaying photos with pinch-to-zoom react-native-photo-view
+Create beautiful JavaScript charts with one line of React react-chartkick
+Renders highlighted Prism output using React prism-react-renderer
+A React-Native utility belt for scaling the size your apps UI across different sized devices react-native-size-matters
+Firebase Instance ID provides a unique identifier for each instance of your app and a mechanism to authenticate and authorize actions for it (for example: sending FCM messages). @react-native-firebase/iid
+Components relating to utilities in the Garden Design System @zendeskgarden/react-utilities
+Surfaces for drawing and interacting with React WebGL contexts in 3D space react-360-surfaces
+Ui transitions made simple react-morph
+The most complete chat UI for React Native @alexal1/react-native-gifted-chat
+React Icons Kit using various Svg Icon set react-icons-kit
+Grid system based on styled-components and flexbox for React react-styled-flexboxgrid
+React port of slick carousel @themainingredient/react-slick
+React Router scroll management forked from https://github.com/ytase/react-router-scroll for Gatsby gatsby-react-router-scroll
+A react native component with the same concept of react native's SegmantedControlIOS, Primarily built to support both IOS and Android. react-native-segmented-control-tab
+A react native module that lets you to register a global error handler that can capture fatal/non fatal uncaught exceptions. react-native-exception-handler
+Fast Touch Events for React react-fastclick
+Data visualization library based on React and d3. @samhogg/react-vis
+Ruthlessly simple bindings to keep react-router and redux in sync point-simple-router
+A Camera component for React Native. Also reads barcodes. @bam.tech/react-native-camera
+Create living style guides using Markdown or React catalog
+A React table component designed to allow presenting thousands of rows of data. fixed-data-table-contextmenu
+A QR code scanner for React Native. react-native-qrcode-scanner
+Telephone input component. Rewrite intl-tel-input in React.js. react-intl-tel-input
+Material Components React Menu Surface @material/react-menu-surface
+React component for Froala WYSIWYG HTML rich text editor. react-froala-wysiwyg
+Makes React components pure. pure-render-decorator
+flush webpack chunks for SSR from React Loadable or similar packages webpack-flush-chunks
+React TinyMCE component react-tinymce
+React port of slick carousel react-slick-ivliag
+Material Components React Tab Indicator @material/react-tab-indicator
+Rename react-native app with just one command react-native-rename
+React port of slick carousel ubervu-react-slick
+3dof and 6dof controller raycaster for React VR applications react-vr-controller-raycaster
+Provides a cleaner API for enabling and configuring plugins for next.js next-compose-plugins
+<p align="center"><img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="400px"></p> react-pdf-hk
+React Server Data Bundle Cache react-server-data-bundle-cache
+BEM React ClassNames merge @bem-react/classnames
+A Jest processor that prevents CSS module parse errors jest-css-modules
+A Flux dispatcher for applications that run on the server and the client. dispatchr
+React port of slick carousel @wcerfgba/react-slick
+A simple and reusable datepicker component for React @nemo.travel/react-datepicker
+Provides a React-based radio group component nuclide-ui-radiogroup
+iOS & Android BackgroundFetch API implementation for React Native react-native-background-fetch
+Truncate text for React.js react-text-truncate
+Material Components React Tab @material/react-tab
+A ReactJS component that can drag and sort any children with IE8 compatibility react-anything-sortable
+React Native Firebase - Auth @react-native-firebase/auth
+A simple React component capable of building HTML forms out of a JSON schema. opsmind-react-jsonschema-form
+aurora imui plugin for react native application aurora-imui-react-native
+Set of higher-order components to turn any list into a sortable, touch-friendly, animated list react-sortable-hoc-rtl
+Lets users sign their signatures react-native-signature-capture
+Pure javascript autocomplete input for react-native react-native-autocomplete-input
+React port of slick carousel react-slick-last
+Advanced native camera control with pre-defined aspect ratio, crop, etc react-native-camera-kit
+An invertible ScrollView for React Native react-native-invertible-scroll-view
+Yet another React state management library that lets you work with local state and scale up to global state with ease constate
+The visual tool for prototyping UI for ReactJS components and Web applications.[DEPRECATED] Use Structor instead. react-ui-builder
+Forked from react-jsonschema-form react-jsonschema-form-n
+react-native-sensitive-info manages all data stored in Android Shared Preferences and iOS Keychain. You can set, get and delete keys/values using simple methods. react-native-sensitive-info
+React component for CASL which makes it easy to add permissions in any React application @casl/react
+an implementation of React that optimizes for small script size react-lite
+calculates module level config react-server-module-tagger
+TypeScript definitions for react-helmet @types/react-helmet
+Data visualization library based on React and d3. @chbrown/react-vis
+a React16-compact mini framework anujs
+Styles, assets, and React classes for Jenkins Design Language @jenkins-cd/design-language
+Phenomic plugin that allow you to use React to render your website/app @phenomic/plugin-renderer-react
+A component for making a terminal in React terminal-in-react
+Country picker react-native-country-picker-modal
+React, but with built-in global state management. reactn
+A react component for reading QR codes from the webcam. react-qr-reader
+React port of slick carousel react-slick-blackrabbit
+A Stateless & Flexible Select component for React inspired by Selectize react-selectize
+React Native Local and Remote Notifications @brandingbrand/react-native-push-notification-leanplum
+A recommended Babel config for working with react-server babel-preset-react-server
+Removes React properties babel-plugin-react-remove-properties
+React component library for building declarative multi-step flows. react-albus
+A simple React component capable of building HTML forms out of a JSON schema. pensee-react-jsonschema-form
+Swiper component for React Native. tsjing-carousel
+Awesome React tooltips react-portal-tooltip
+React Native In App Purchase Module. react-native-iap
+Present Cloudinary images and videos using React components cloudinary-react
+Material Components React Drawer @material/react-drawer
+Redux middleware and utils for React Navigation react-navigation-redux-helpers
+Material Components React Chips @material/react-chips
+A customizeable HTML5 Video react-html5video
+Isomorphic framework for server-rendered React apps beidou
+React Native Restart Component react-native-restart
+OpenGL bindings for react-native to implement complex effects over images and components, in the descriptive VDOM paradigm gl-react-native
+react-notification-system-redux react-notification-system-redux
+ReactJS maps without external dependencies pigeon-maps
+Centralized video playback controls for applications built on top of React WebGL react-webgl-video-manager
+A simple React component capable of building HTML forms out of a JSON schema. nlz-react-jsonschema-form
+allows you to easily add BEM-style element and modifier classes to React elements, while hopefully making it easier to scan. react-bem-helper
+CLI tool to bootstrap Razzle applications with no configuration create-razzle-app
+Material Components React Icon Button @material/react-icon-button
+Automagically manage React forms state and automatic validation with MobX. mobx-react-form
+A simple React component capable of building HTML forms out of a JSON schema. @cyxou/react-jsonschema-form
+This project provides a set of utilities to customize the Create React App v2 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities. customize-cra
+A handy FilePond adapter component for React react-filepond
+Sensible promise handling and middleware for redux redux-pack
+TSLint rule that enforces the Rules of Hooks tslint-react-hooks
+HOC for React and React Native providing versions of setTimeout etc. that cancels when unmounted. react-timeout
+Experimental React Renderer that draws 2D UI to a WebGL context react-webgl-experimental
+Electrode NodeJS/React Application Archetype (Development) electrode-archetype-react-app-dev
+ViewPager componnent for React Native react-native-viewpager
+Simple component wrapper for testing React hooks react-hooks-testing-library
+Simple module to localize the ReactNative interface react-native-localization
+Set of higher-order components to turn any list into a sortable, touch-friendly, animated list multiple-react-sortable-hoc
+Compose render prop components react-composer
+Lightweight wrapper around Loaders.css react-loaders
+Hapi plugin that provides a default React web app template electrode-react-webapp
+React Bootstrap 4 components for World Affairs Conference wacstrap
+React component for rendering a gravatar profile image react-gravatar
+Boilerplate and tooling for JavaScript application development with React react-app
+A simple React component capable of building HTML forms out of a JSON schema. Forked from react-jsonschema-form version 1.2.1 react-jsonschema-form-with-titles
+Drag and Drop library react-smooth-dnd
+Initialize an MDX project create-mdx
+React components for icons in digital and software products using the Carbon Design System @carbon/icons-react
+Mozaik dashboard composition tool mozaik
+Vue loader for MDX @mdx-js/vue-loader
+React Kawaii is a library of cute SVG illustrations (react components). Ideal if you want to give some cuteness and personality to your react application. react-kawaii
+A React Native wrapper for Mixpanel tracking react-native-mixpanel
+React JSON inspector component react-json-inspector
+Wraps a react component in a proxy component to enable Code Splitting. react-proxy-loader
+ViewPager component for react-native, same api on both android and ios. rn-viewpager
+Material Components React Layout Grid @material/react-layout-grid
+React component to handle keyboard events react-key-handler
+Sticker Plugin for DraftJS draft-js-sticker-plugin
+A react component toolset for managing animations @reside-eng/react-transition-group
+This library provides access to the design tokens of PatternFly 4 from JavaScript @patternfly/react-tokens
+Get device information using react-native react-native-simple-device-info
+React Native Package Manager rnpm
+Require and transpile JSX on the fly import-jsx
+A visual graph editor based on G6 and React gg-editor
+Color picker for react native react-native-color-picker
+Redux & React based Notifications center redux-notifications
+Material Components React Switch @material/react-switch
+React renderer for low memory applications react-tv
+React data container for Apollo Client apollo-react
+A rapid form development library for Angular @ng-dynamic-forms/core
+Redux support for React-Server react-server-redux
+Material Components React Floating Action Button (FAB) @material/react-fab
+rnpm plugin that links native dependencies to your project rnpm-plugin-link
+A React Native wrapper for Safari View Controller react-native-safari-view
+Render less container for ID generation react-uid
+Customisable switch component for RN react-native-switch
+Components relating to menus in the Garden Design System @zendeskgarden/react-menus
+React renderer for CommonMark (rationalized Markdown) commonmark-react-renderer
+Display some placeholder stuff before rendering your text or media content in React Native rn-placeholder
+React Native Blur component @react-native-community/blur
+Simple HTML5 drag-drop zone with React.js @vibbio/react-dropzone
+Simple but useful stubbing solution React @storybook/react-stubber
+React Native Firebase - Template @react-native-firebase/template
+Responsive Grid View for React Native react-native-super-grid
+A react-native charts support both android and ios. react-native-charts-wrapper
+Set of higher-order components to turn any list into a sortable, touch-friendly, animated list lyfeyaj-react-sortable-hoc
+React Native plugin for the CodePush service bt-react-native-code-push
+m-cascader ui component for react rmc-cascader
+Add contextmenu to your react component with ease react-contexify
+Simple HTML5 drag-drop zone with React.js react-dropzone-demisto
+A polyfill for React Natives DrawerLayoutAndroid react-native-drawer-layout-polyfill
+React Native for the desktop, cross compatible proton-native
+React + Omio reomi
+Set of higher-order components to turn any list into a sortable, touch-friendly, animated list react-sortable-hoc-with-canvas
+A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Sto @anarock/react-native-firebase
+m-list-view ui component for react rmc-list-view
+React Mobile Tabs Component(web & react-native) rmc-tabs
+WebGL driver for Rax. driver-webgl
+A bootstrap datetime picker component for React.js react-bootstrap-datetimepicker
+Responsive React UI components react-responsive-ui
+A react multi-step, wizard component for managing data collection via forms and sub components react-stepzilla
+A React component to animate replacing one element with another. react-css-transition-replace
+React Tag Autocomplete is a simple tagging component ready to drop in your React projects. react-tag-autocomplete
+Omi Mobx Adapter. omi-mobx
+A flexible dropdown menu component for Android and iOS that is similar to Android's Spinner. react-native-menu
+Floaters everywhere! react-floater
+The base package for including typography for react-md. @react-md/typography
+React Native Stripe binding for iOS/Andriod platforms tipsi-stripe
+CachedImage component for react-native react-native-cached-image
+Material Components React Linear Progress @material/react-linear-progress
+Material Componens React Radio @material/react-radio
+<h1 align="center">   <img src="https://i.imgur.com/S8jnr8O.png" height="300px" alt="redux zero logo" title="redux zero logo">   <br> </h1> <p align="center" style="font-size: 1.2rem;">A lightweight state container based on Redux</p> redux-zero
+SVGR Parcel plugin. @svgr/parcel-plugin-svgr
+React implementation of uber design components platform. baseui
+A set of tiny, composable React components for handling state with render props. react-values
+Pluggable components to add a trello like kanban board to your application react-trello
+Material Components React Tab Bar @material/react-tab-bar
+TypeScript definitions for react-hot-loader @types/react-hot-loader
+React component for scrolling, zooming and highlighting code. mdx-deck-code-surfer
+React Native Network Info API for iOS & Android @react-native-community/netinfo
+React component for scrolling, zooming and highlighting code. code-surfer
+RxJS Bindings for Node.js and io.js rx-node
+AWS Amplify is a JavaScript library for Frontend and mobile developers building cloud-enabled applications. hackathon-aws-amplify-react
+ReDoc @ecollect/redoc
+A collection of dialog animations with React.js boron
+Set of higher-order components to turn any list into a sortable, touch-friendly, animated list @prometheusresearch/react-sortable-hoc
+React Components for building map UIs @appbaseio/reactivemaps
+Collection of components and render prop containers relating to buttons in the Garden Design System @zendeskgarden/react-buttons
+Inline styles in JS that just work (TM) @workflo/aphrodite
+A fast, lightweight, opinionated table and datagrid built on React react-table-with-select-ids
+React Native Calendar Components react-native-calendars-munote
+Flexible date picker component for React @kupibilet/react-day-picker
+A simple React component capable of building HTML forms out of a JSON schema. autotaxform-gen
+Refreshed Windows95 UI components for modern web apps - React95 react95
+Non-prescriptive React.js dropdown toolkit react-simple-dropdown
+React component that uses SVG to create a collection of loaders which simulates the structure of the content that will be loaded, similar to Facebook cards loaders. @clay.global/react-content-loader
+React component for declarative promise resolution and data fetching react-async
+Node module that contains common functionality needed to link appcenter-* modules appcenter-link-scripts
+simple and useful animated radio button component for React Native react-native-simple-radio-button
+React components to create parallax scroll effects for banners, images or any other DOM elements. react-scroll-parallax
+A fast, lightweight, opinionated table and datagrid built on React react-table-ynfinite
+Material Components React Tab Scroller @material/react-tab-scroller
+react scrollspy component react-scrollspy
+This package is for including icons within react-md. There is included support for both font icons and SVG icons.  There is also a helper component for applying spacing between icons and text. @react-md/icon
+A <Hyperlink /> component for react-native to make urls, fuzzy links, emails etc clickable react-native-hyperlink
+Handle async data for React Server Side Rendering using Redux and Router electrode-redux-router-engine
+React Native Material Design Components react-native-material-design
+React Native button component with rounded corners. apsl-react-native-button
+Debounce handler HOC for React and React Native @hocs/debounce-handler
+Components relating to modals in the Garden Design System @zendeskgarden/react-modals
+State based routing for React @uirouter/react
+A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Sto eta-ai-react-native-firebase
+Declarative version of React.Component. react-component-component
+beidou view react beidou-view-react
+A wrapper around react-loadable for elements that are visible on the page react-loadable-visibility
+Drag and drop helpers for Reactabular reactabular-dnd
+A highly impartial suite of React components that can be assembled by the consumer to create a responsive, aria compliant, carousel with almost no limits on DOM structure or CSS styles. If you're tired of fighting some other developer's CSS and DOM struct pure-react-carousel
+a composite render engine for express apps to render both plain react views and react-router views react-engine
+React component for Split Grid react-split-grid
+Sticky header and body for Reactabular reactabular-sticky
+A fast, lightweight, opinionated table and datagrid built on React react-table-temp
+React Component for displaying an image from Imgix react-imgix
+A simple way to dismiss the keyboard programmatically in a react native application. react-native-dismiss-keyboard
+React Native Calendar Components @cutii/react-native-calendars
+Material Design Icons for React mdi-react
+Emit event periodically (even when app is in the background) react-native-background-timer
+Component-wrapper to determine and report children elements height react-height
+fork from marcshilling/react-native-image-picker. Make it suitable for shefenqi react-native-image-picker-shefenqi
+A storybook addon to show different backgrounds for your preview @storybook/addon-backgrounds
+React wrapper for firebaseui: Javascript library for customizable UI on top of Firebase SDK react-firebaseui
+Material-UI Styles - The styling solution of Material-UI. @material-ui/styles
+Handy toolbelt to deal with offline mode in React Native applications. Cross-platform, provides a smooth redux integration. react-native-offline
+A set of React Components for Bulma CSS bloomer
+A React component that is a base button. @atlaskit/button
+UI library for pure JS, Angular, React, Vue and more... @grapecity/wijmo
+A react native interface to access Documents from dropbox google drive, iCloud react-native-document-picker
+Placeholder for the upcoming react-apollo-test-utils. react-apollo-test-utils
+react-swipeable-views core modules @getogrand/react-swipeable-views-core
+Pinterest like layout components for React.js react-stack-grid
+An extension to react-navigation providing transitions and shared element transitions. react-navigation-fluid-transitions
+i18n utilities for React handling translations, formatting, and more. @shopify/react-i18n
+Spectacular tables for React reactabular
+Simple HTML5 drag-drop zone with React.js @josephfrazier/react-dropzone
+Vue directive to react on clicks outside an element. v-click-outside-x
+Material Components React Typography @material/react-typography
+A fast, lightweight, opinionated table and datagrid built on React @capaj/react-table
+Beautifully animate anything in react with interia or time + easing. react-move-fork
+Method auto-bind for ES6 (ES2015) classes class-autobind
+React + Omi, reuse React Component in Web Components omire
+React-Bootstrap based date picker. react-bootstrap-date-picker
+A Mapbox GL react native module for creating custom maps react-native-mapbox-gl
+A self-eradicating component for rendering multiple elements. react-aux
+Toolkit for building scalable web applications with React, Redux and React-router. rekit
+Declarative router component for React react-router-component
+A BLE module for react native. react-native-ble-manager
+Declarative, nested and stateful HTML document meta tags for React react-document-meta
+it's the editor addon for react-bootstrap-table2 react-bootstrap-table2-editor
+React data container for Apollo Client @goodforonefare/shopify-react-apollo
+High performance interactable views in React Native react-native-interactable-ts
+A Vue UI components library for building search experiences @appbaseio/reactivesearch-vue
+A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Sto @devshack/react-native-firebase
+A simple and reusable datepicker component for React credeo-react-datepicker
+React Tree View Component @ndelangen/react-treebeard
+Configurable React Components with great UX belle
+color-picker ui component for react rc-color-picker
+A simple and reusable datepicker component for React @artemv/react-datepicker
+A strict mode compatible fork of react-transition-group react-transition-group-strict
+BEM React Dependency Injection @bem-react/di
+Declarative timeseries charts react-timeseries-charts
+An ES6-friendly on-click-outside React component. react-onclickout
+A React Native module that allows you to use native UI to select media from the device library or directly from the camera @huston007/react-native-image-picker
+rnpm plugin that generates a Windows template project with WPF rnpm-plugin-wpf
+Next generation Routing for React. @joshuppercase/router
+Components relating to pagination in the Garden Design System @zendeskgarden/react-pagination
+Relay-inspired library based on Promises instead of GraphQL. react-transmit
+Utilise Shadow DOM in React with all the benefits of style encapsulation. react-shadow
+Flag utility for styled-components styled-is
+Parse and render MDX in a runtime environment @aitodotai/mdx-js-runtime
+Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems. @esy-ocaml/rtop
+React store built on top of [the new context API](https://reactjs.org/docs/context.html) react-waterfall
+A lightweight framework and utility for building powerful forms in React applications informed
+A React Native module that allows you to use native UI to select media from the device library or directly from the camera odgn-react-native-image-picker
+An analytics library for React.js react-metrics
+A minimalistic wrapper around React Native's AsyncStorage. react-native-simple-store
+Activity indicator collection react-native-indicators
+A react-native wrapper for handling in-app payments. react-native-in-app-utils
+The toolkit for react-bootstrap-table2 react-bootstrap-table2-toolkit
+Live code editing with Browserify and React livereactload
+<h1 align="center">   next-offline </h1> next-offline
+Use the full power of React and GSAP together react-gsap-enhancer
+Simple react.js component for a inline progress indicator react-progress-button
+React support for Okta @okta/okta-react
+Calendar! with events @rusinov/react-big-calendar
+Data grid for React @ijm/react-data-grid
+A react component toolset for managing animations @clay.global/react-transition-group
+Fork of MQTT.js to allow a React Native MQTT client react-native-mqtt-client
+React component to fit headlines and paragraphs into any element react-textfit
+Theming utilities and components within the Garden Design System @zendeskgarden/react-theming
+A generic technique for resolving the DOM node of any react component. react-node-resolver
+React wrapper for medium-editor react-medium-editor
+A package for determining which element on the page is the current keyboard focus/selection. @react-md/wia-aria
+A React component that adds pan and zoom features to SVG react-svg-pan-zoom
+React Native Firebase - Cloud Storage for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale. @react-native-firebase/storage
+React Mobile Pull To Refresh Component rmc-pull-to-refresh
+Utilities for Backpack's React components. bpk-react-utils
+Simple transparent reactivity with 100% language coverage. Made with ES6 Proxies. @nx-js/observer-util
+Boilerplate for ReactJS project with hot code reloading react-hot-boilerplate
+Aurora imui chatinput for react native chatinput-react-native
