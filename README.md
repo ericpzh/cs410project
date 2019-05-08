@@ -16,6 +16,7 @@ Each package on NPM has a brief description of itself on the website. In this mo
 
 ## Dependencies
 metapy
+flask
 
 ## How to run the project
 Our project has a web-based user interface.
