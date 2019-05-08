@@ -17,13 +17,13 @@ Each package on NPM has a brief description of itself on the website. In this mo
 ## Implementation of our App
 
 ## Usages
+### Dependencies
+metapy
+flask
+### How to setup & run the App
+Our project has a web-based user interface.
 
 ## Work Distribution
 
 
-## Dependencies
-metapy
-flask
 
-## How to run the project
-Our project has a web-based user interface.
