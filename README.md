@@ -8,13 +8,15 @@ This project will probably include both content-based filtering system and colla
 The result of the project can be judged by data crawling from some less popular GitHub repositories. We can randomly remove some libraries and see if the model can recommend those removed libraries. The minimum goal for this semester is to finish up the recommendation system using the top-1000 popular repositories about ‘React’. If time allows, we could crawl more data and build a better app.
 
 ## Functionalities
+Our application helps Node.js developers to find the packages that they might be interested in. 
 ### Recommand by your current packages
-In this mode we will take your current packages in your package.json file and use the PLSA algorithm to find the most related packages.
+In each Node.JS project there is a package.json file indicating the packages used in the project. In this mode we will take your current packages in your Node.js package.json file and use the PLSA algorithm to find the most related packages. 
 
 ### Recommand by keyword
 Each package on NPM has a brief description of itself on the website. In this mode we will use text mining techniques to find the packages that is most related to your given keywords based on package descriptions.
 
 ## Implementation of our App
+We first used beautifulsoup
 
 ## Usages
 ### Dependencies
