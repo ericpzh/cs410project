@@ -28,7 +28,8 @@ def index():
 def test():
     queryContent = request.args.get('data').replace(","," ")
     print("query is: ", queryContent)
-    results = app.searcher.search(queryContent)
+    searcher = PackageSearcher("config.toml")
+    results = searcher.search(queryContent)
     return jsonify(results)
     # return jsonify(["n", "m", "s", "l"])
 
