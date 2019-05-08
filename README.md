@@ -36,10 +36,10 @@ We first used beautifulsoup
 
 ### How to setup & run the App
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
+If you want to test it locally, you need to install the dependencies and run `python app.py` in the frontend folder. This will open a flask server and you will be able to see the website at `http://localhost:5000`.
+Note that there is a bug in metapy that cause the flask kernel to die. (That means the code may not work locally) We found that we can avoid this issue by deploying the app on heroku. 
 
-If you want to test it locally, you need to install the dependencies and run `python app.py` in the frontend folder.
 
-This will open a flask server and you will be able to see the website at `http://localhost:5000`.
 
 ## Work Distribution
 Chen Pan: Frontend website UI design & implementation
