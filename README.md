@@ -16,12 +16,15 @@ In each Node.JS project there is a package.json file indicating the packages use
 Each package on NPM has a brief description of itself on the website. In this mode we will use text mining techniques to find the packages that is most related to your given keywords based on package descriptions.
 
 ## Implementation of our App
+There are three parts of our project and each of us was in charge of one of them.
+First, we scraped the package.json data from various NPM projects.
 We first used beautifulsoup
 
 ## Usages
 ### Dependencies
-metapy
-flask
+[metapy](https://pypi.org/project/metapy/)
+[numpy](https://pypi.org/project/numpy/)
+[Flask](https://pypi.org/project/Flask/)
 
 ### How to setup & run the App
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
