@@ -12,9 +12,7 @@ from searcher import PackageSearcher
 from searcher import DescriptionSearcher
 import subprocess
 
-
-
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 CORS(app)
 app.config['SECRET_KEY'] = 'any secret string'
 app.config['DEBUG'] = True
