@@ -15,7 +15,7 @@ class PackageSearcher:
                 documents.append(i.replace('\n', ''))
         self.documents = documents
 
-    def search(self, queryContent, number_of_topics=3, number_of_terms=10):
+    def search(self, queryContent, number_of_topics=3, number_of_terms=20):
         query = metapy.index.Document()
         query.content(queryContent)
         ranker = self.ranker
@@ -44,24 +44,15 @@ class DescriptionSearcher:
         self.documents = documents
 
 
-    def search(self, queryContent, number_of_topics=3, number_of_terms=10):
+    def search(self):
         query = metapy.index.Document()
         query.content(queryContent)
         ranker = self.ranker
         query = metapy.index.Document()
         query.content(queryContent)
-        results = ranker.score(self.idx, query, 10)
+        results = ranker.score(self.idx, query, 20)
         print("get result", results)
         rel_doc = []
         for id, score in results:
             rel_doc.append(self.packages[id])
         return rel_doc
-
-
-
-
-# # query = sys.argv[2]
-# query = "express"
-# print(query)
-# words = getWords(query, 2, 20)
-# print(words)
