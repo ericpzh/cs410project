@@ -14,6 +14,13 @@ In this mode we will take your current packages in your package.json file and us
 ### Recommand by keyword
 Each package on NPM has a brief description of itself on the website. In this mode we will use text mining techniques to find the packages that is most related to your given keywords.
 
+## Implementation of our App
+
+## Usages
+
+## Work Distribution
+
+
 ## Dependencies
 metapy
 flask
