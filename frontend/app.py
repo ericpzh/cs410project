@@ -37,7 +37,8 @@ def test():
     # print("query")
     # results = ranker.score(inv_idx, query)
     # results = app.searcher.search("express")
-    subprocess.run(["python", "searcher.py"], capture_output=True)
+    p = subprocess.run(["python", "searcher.py"])
+    print(p)
     # print("get result", search())
     return jsonify("nmsl")
 
@@ -52,7 +53,4 @@ def search():
     return app.searcher.search("express")
 
 if __name__ == '__main__':
-    # app.searcher = Searcher("config.toml")
     app.run(port=5000)
-    # query = "express"
-    # print("result", search())
