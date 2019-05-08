@@ -47,10 +47,13 @@
       }
 
       becomeChicken(){
+        if (this.state.parsedList.length === 0){
+          return;
+        }
         var args = '?data='+this.state.parsedList;
         console.log(this.state.parsedList);
         this.setState({loading: true});
-        fetch('http://127.0.0.1:5000/test'+args, {
+        fetch('https://metapypy.herokuapp.com/api/package'+args, {
           mode: 'cors',
           method: 'GET',
           headers: {
@@ -69,9 +72,12 @@
       }
 
       becomeChickenByTopic(){
+        if (this.state.parsedList.length === 0){
+          return;
+        }
         var args = '?data='+this.state.parsedList;
         this.setState({loading: true});
-        fetch('http://127.0.0.1:5000/topic'+args, {
+        fetch('https://metapypy.herokuapp.com/api/description?'+args, {
           mode: 'cors',
           method: 'GET',
           headers: {
@@ -165,9 +171,9 @@
                         </div>
                         <ul className="list">
                           <li>In this mode you can enter a list of topics and find the packages with similar topics.</li>
-                          <li>Enter a list of topic below, separated by ' , '</li>
+                          <li>Enter a list of topic below, separated by space</li>
                           <li>Example Input:</li>
-                          <p>react, visualization, express</p>
+                          <p>react visualization</p>
                         </ul>
                       </div>
                       <div className="ui divider"/>
@@ -178,7 +184,7 @@
                           <i className="search icon"/>
                         </button>
                       </div>
-                      <div className="ui header">Parsed Topic List:</div>
+                      <div className="ui header">Parsed Keywords:</div>
                       <ul className="list">
                         {pkgList}
                       </ul>
