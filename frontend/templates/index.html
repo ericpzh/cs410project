@@ -60,7 +60,7 @@
         .then(res => res.json())
         .then(res => {
             console.log(res);
-            let fish = res ? "No relevant package found" : res;
+            let fish = res=="" ? "No relevant package found" : res;
             this.setState({fish: fish, loading: false});
             return res;
         })
@@ -81,7 +81,7 @@
                 .then(res => res.json())
                 .then(res => {
                   console.log(res);
-                  let fish = res ? "No relevant package found" : res;
+                  let fish = res=="" ? "No relevant package found" : res;
                   this.setState({fish: fish, loading: false});
                   return res;
                 })
@@ -119,7 +119,12 @@
                   <br/>
                   <br/>
                   <br/>
-                </div>): this.state.fish;
+                  <br/>
+                </div>): (typeof this.state.fish === "string" ? this.state.fish
+                :(<ul className="list">
+          {this.state.fish.map(word => <li>{word}</li>)}
+        </ul>));
+
         return (
                 <div className="ui container">
                   <br/>
@@ -183,6 +188,11 @@
                     <div className="ui large header">Results</div>
                     <div className="ui segment">
                     {result}
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
                     </div>
                   </div>
                   </div>
