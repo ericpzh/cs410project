@@ -25,7 +25,7 @@ def index():
     return render_template('index.html', title='APP')
 
 @app.route('/api/package', methods=['GET'])
-def test():
+def packageGet():
     queryContent = request.args.get('data').replace(","," ")
     print("query is: ", queryContent)
     searcher = PackageSearcher("config.toml")

@@ -44,7 +44,7 @@ class DescriptionSearcher:
         self.documents = documents
 
 
-    def search(self):
+    def search(self, queryContent):
         query = metapy.index.Document()
         query.content(queryContent)
         ranker = self.ranker
