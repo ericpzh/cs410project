@@ -24,6 +24,8 @@ flask
 ### How to setup & run the App
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
 
+If you want to test it locally, you need to install the dependencies and run `python app.py` in the frontend folder.
+
 ## Work Distribution
 Chen Pan: Frontend website UI design & implementation
 
