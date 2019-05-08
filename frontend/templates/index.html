@@ -13,7 +13,7 @@
       constructor(props) {
         super(props);
         this.state = {
-          fish : "Start a search to see results",
+          fish : "Start a search to view results",
           input : '',
           example: {
             "axios": "^0.18.0",
@@ -42,7 +42,7 @@
           this.setState({parsedList: Object.keys(JSON.parse(e.target.value))});
         }
         else {
-            this.setState({parsedList: e.target.value.split(",")});
+            this.setState({parsedList: e.target.value.split(" ")});
         }
       }
 
@@ -98,7 +98,7 @@
 
       handleTab(e){
         // reset contents
-        this.setState({input: "", parsedList: [], fish: "Start a search to see results"});
+        this.setState({input: "", parsedList: [], fish: "Start a search to view results"});
         let tabmenu = document.querySelectorAll(".tabmenu");
         tabmenu.forEach(tab => {
           tab.classList.remove("active");
@@ -125,8 +125,7 @@
                   <br/>
                   <br/>
                   <br/>
-                  <br/>
-                </div>): (typeof this.state.fish === "string" ? this.state.fish
+        </div>): (typeof this.state.fish === "string" ? <p>{this.state.fish}</p>
                 :(<ul className="list">
           {this.state.fish.map(word => <li>{word}</li>)}
         </ul>));
@@ -138,8 +137,7 @@
                     <div className="ui huge header">NPM Package Recommender</div>
                     <div className="ui pointing secondary menu">
                       <a className="active item tabmenu" onClick={this.handleTab} data-tab="first">Search By Package List</a>
-                      <a className="item tabmenu" onClick={this.handleTab} data-tab="second">Search By Topics</a>
-                    </div>
+                      <a className="item tabmenu" onClick={this.handleTab} data-tab="second">Search By Keywords</a>                    </div>
                     <div className="ui active tab segment" data-tab="first">
                       <div className="ui message">
                         <div className="header">
@@ -167,11 +165,11 @@
                     <div className="ui tab segment" data-tab="second">
                       <div className="ui message">
                         <div className="header">
-                          Find Similar Packages By Topic(s)
+                          Find Similar Packages By Keywords
                         </div>
                         <ul className="list">
-                          <li>In this mode you can enter a list of topics and find the packages with similar topics.</li>
-                          <li>Enter a list of topic below, separated by space</li>
+                          <li>In this mode you can enter some keywords to find the most related packages, just like google search.</li>
+                          <li>Enter some keywords below, separated by space</li>
                           <li>Example Input:</li>
                           <p>react visualization</p>
                         </ul>
@@ -194,13 +192,13 @@
                     <div className="ui large header">Results</div>
                     <div className="ui segment">
                     {result}
-                      <br/>
-                      <br/>
-                      <br/>
-                      <br/>
-                      <br/>
                     </div>
                   </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                   </div>
                 </div>
         );
