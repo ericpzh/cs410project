@@ -25,6 +25,8 @@ flask
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
 
 ## Work Distribution
-
+Chen Pan: Frontend website UI design & implementation
+Meishan Wu: Implemented the Text Mining Algorithms for our project
+Zhonghao Pan: Scraping data from NPM Website
 
 
