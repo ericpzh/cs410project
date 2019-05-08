@@ -27,20 +27,8 @@ def index():
 def test():
     queryContent = request.args.get('data').replace(","," ")
     print("query is: ",queryContent)
-    # base_path = "./../meta/"
-    # cfg = base_path + "config.toml"
-    # inv_idx = metapy.index.make_inverted_index(cfg)
-    # fwd_idx = metapy.index.make_forward_index(cfg)
-    # ranker = metapy.index.OkapiBM25(k1=2,b=0.75,k3=500)
-    # query = metapy.index.Document()
-    # query.content("express")
-    # print("query")
-    # results = ranker.score(inv_idx, query)
-    # results = app.searcher.search("express")
-    p = subprocess.run(["python", "searcher.py"])
-    print(p)
-    # print("get result", search())
-    return jsonify("nmsl")
+    # results = app.searcher.search(queryContent)
+    return jsonify(["1", "2", "3"])
 
 
 @app.route('/topic', methods=['GET'])
@@ -49,8 +37,8 @@ def topic():
     print(args)
     return jsonify(args)
 
-def search():
-    return app.searcher.search("express")
-
 if __name__ == '__main__':
+    app.searcher = Searcher("config.toml")
+    # print(app.searcher.search("express"))
+
     app.run(port=5000)
