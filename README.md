@@ -22,6 +22,7 @@ We first used beautifulsoup
 
 ## Usages
 ### Dependencies
+##### Text Mining Dependencies
 [metapy](https://pypi.org/project/metapy/)
 [numpy](https://pypi.org/project/numpy/)
 [Flask](https://pypi.org/project/Flask/)
@@ -29,6 +30,10 @@ We first used beautifulsoup
 [gunicorn](https://pypi.org/project/gunicorn/)
 [Jinja2](https://pypi.org/project/Jinja2/)
 [pytoml](https://pypi.org/project/pytoml/)
+##### Scraper Dependencies
+[bs4](https://pypi.org/project/bs4/)
+[selenium](https://pypi.org/project/selenium/)
+
 ### How to setup & run the App
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
 
