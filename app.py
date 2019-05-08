@@ -49,7 +49,5 @@ def topic():
 if __name__ == '__main__':
     app.searcher = PackageSearcher("config.toml")
     app.searcher2 = DescriptionSearcher("config2.toml")
-
     # print(app.searcher2.search("framework"))
-
-    app.run(port=5000)
+    app.run()
