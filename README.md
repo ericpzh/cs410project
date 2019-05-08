@@ -12,7 +12,7 @@ The result of the project can be judged by data crawling from some less popular 
 In this mode we will take your current packages in your package.json file and use the PLSA algorithm to find the most related packages.
 
 ### Recommand by keyword
-Each package on NPM has a brief description of itself on the website. In this mode we will use text mining techniques to find the packages that is most related to your given keywords.
+Each package on NPM has a brief description of itself on the website. In this mode we will use text mining techniques to find the packages that is most related to your given keywords based on package descriptions.
 
 ## Implementation of our App
 
@@ -20,8 +20,9 @@ Each package on NPM has a brief description of itself on the website. In this mo
 ### Dependencies
 metapy
 flask
+
 ### How to setup & run the App
-Our project has a web-based user interface.
+Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
 
 ## Work Distribution
 
