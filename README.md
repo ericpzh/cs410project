@@ -25,6 +25,8 @@ We first used beautifulsoup
 [metapy](https://pypi.org/project/metapy/)
 [numpy](https://pypi.org/project/numpy/)
 [Flask](https://pypi.org/project/Flask/)
+[Flask-Cors](https://pypi.org/project/Flask-Cors/)
+[gunicorn](https://pypi.org/project/gunicorn/)
 
 ### How to setup & run the App
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
