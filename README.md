@@ -43,7 +43,9 @@ The recommendation based on the description is more straight forward. Each docum
 ### How to setup & run the App
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
 The instructions and example inputs are included on the web page.
+
 If you want to test it locally, you need to install the dependencies with `pip3 install -r requirement.txt` and run `python3 app.py` in the frontend folder. This will open a flask server and you will be able to see the website at `http://localhost:5000`.
+
 Note that there is a issue in the flask webserver when running locally, which cause the scoring function to run forever (That means the code may not work locally). Here is a link to [Stack Overflow](https://stackoverflow.com/questions/53369759/flask-code-inside-a-app-route-fails-runs-forever-when-called-a-second-time) on this issue. We found that we can avoid this issue by deploying the app on heroku. 
 
 
