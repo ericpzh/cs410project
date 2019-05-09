@@ -45,6 +45,6 @@ Chen Pan: Frontend website UI design & implementation
 
 Meishan Wu: Implemented the Text Mining Algorithms for our project
 
-Zhonghao Pan: Scraping data from NPM Website
+Zhonghao Pan: Scraping data from NPM Website, Setup Project Structure (Flask + React).
 
 
