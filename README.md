@@ -19,6 +19,9 @@ Each package on NPM has a brief description of itself on the website. In this mo
 There are three parts of our project and each of us was in charge of one of them.
 First, we scraped the package.json data from various NPM projects.
 We first used beautifulsoup to scrape the top 100 popular pages of github using the search keyword "React". We got about 800 useful repo out of the scrape, and aquires about 800 package.json as our data. We parse the data into text file which contains 800 rows(document) each row has a list of npm lib(terms) that we scraped from package.json of each git repo. We also scrape the top 100 popular pages of npm site(www.npmjs.com) using keyword "React". We got over 1500 npm lib out of it, each contains the "name", "description", and "keywords". We store the data into a json file in the schema of {title:"React",des:"A wonder lib...",keyword:[frontend,...]}.
+With the json we have for the package.json we scraped from github and the description data we scraped from NPM website, we first parse the data into a form that can be feed to a metapy functions. We use line corpus and unigram analyzer.
+For the package recommendation, we use OkapiBM25 ranker to get the top 10 relevant documents. we treat each package.json we scraped from a github repository as one document, and each package name is a term. The query is the user's input package.json. The result we get are the most similar package.json comparing to the users. Then, the second step is to mine topics from the related package lists. Adapted from the PLSA algorithm we used in MP3, it will mine a number of topics from the top 10 documents. The number can be changed, but better to be larger than 1 since the 1 topic mining with PLSA depends on the occurence of each term. After we have the topic-word distributions, we can infer the most important packages in the topics mined from the top 10 package.json. Thus, we'll recommend those packages to the users if they are not in the user's query.
+The recommendation based on the description is more straight forward. Each document is a combination of the packages's name and the description. Since descriptions are natural languages, we use the same set of stopwords as MP2. The user can query by keywords, which can be descriptive words, or simply the name. We'll use the query to rank the documents with OkapiBM25, and the top 20 packages are returned to the user.
 ## Usages
 ### Dependencies
 ##### Text Mining Dependencies
@@ -35,16 +38,17 @@ We first used beautifulsoup to scrape the top 100 popular pages of github using 
 
 ### How to setup & run the App
 Our project has a web-based user interface. We have deployed it on https://metapypy.herokuapp.com/ so you can directly use it.
-If you want to test it locally, you need to install the dependencies and run `python app.py` in the frontend folder. This will open a flask server and you will be able to see the website at `http://localhost:5000`.
-Note that there is a bug in metapy that cause the flask kernel to die. (That means the code may not work locally) We found that we can avoid this issue by deploying the app on heroku. 
+The instructions and example inputs are included on the web page.
+If you want to test it locally, you need to install the dependencies with `pip3 install -r requirement.txt` and run `python3 app.py` in the frontend folder. This will open a flask server and you will be able to see the website at `http://localhost:5000`.
+Note that there is a issue in the flask webserver when running locally, which cause the scoring function to run forever (That means the code may not work locally). Here is a link to [Stack Overflow](https://stackoverflow.com/questions/53369759/flask-code-inside-a-app-route-fails-runs-forever-when-called-a-second-time) on this issue. We found that we can avoid this issue by deploying the app on heroku. 
 
 
 
 ## Work Distribution
 Chen Pan: Frontend website UI design & implementation
 
-Meishan Wu: Implemented the Text Mining Algorithms for our project
+Meishan Wu: Implemented the text mining algorithms for our project
 
-Zhonghao Pan: Scraping data from NPM Website, Setup Project Structure (Flask + React).
+Zhonghao Pan: Scraping data from NPM website, setup project structure (Flask + React).
 
 
