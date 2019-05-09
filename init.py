@@ -1,7 +1,11 @@
 import json
 
 def parsePackageList():
-    with open("./../data100.txt", 'r') as f:
+    """
+    Prepare documents from scraped package.json data.
+    Only need to be run when new data scraped.
+    """
+    with open("data100.txt", 'r') as f:
         documents = []
         for i in f.readlines():
             for c in '[],\n': #':-/@.'
@@ -12,7 +16,11 @@ def parsePackageList():
             f.write(line + '\n')
 
 def parseDescriptions():
-    with open("./../popular_package.json", 'r') as f:
+    """
+    Prepare documents from scraped NPM package description data.
+    Only need to be run when new data scraped.
+    """
+    with open("popular_package.json", 'r') as f:
         packages = json.loads(f.readline())
     descriptions = []
     parsed_packages = []

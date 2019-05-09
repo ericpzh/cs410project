@@ -1,6 +1,9 @@
 import numpy as np
 import math
 
+"""
+Source : UIUC CS410 SP2019 MP3
+"""
 
 def normalize(input_matrix):
     """
@@ -147,6 +150,10 @@ class Corpus(object):
         return
 
     def plsa(self, number_of_topics, max_iter, epsilon):
+        """
+        Run PLSA and stop when likelihood converges.
+        Reture topic words ordered by probability.
+        """
         # build term-doc matrix
         self.build_term_doc_matrix()
         # Create the counter arrays.
@@ -168,7 +175,16 @@ class Corpus(object):
             l += [j for j in zip(self.topic_word_prob[i], self.vocabulary)]
         l.sort(key = lambda t: t[0], reverse = True)
         return l
+
 def topicWords(doc, query, number_of_topics=3, number_of_terms=10):
+    """
+    Given some documents and a query, get the most related topic words
+    that are not in the original query.
+    :param:doc: A list of document strings, each is a space seperated package list
+    :param:query: a space seperated package list
+    :param:number_of_topics: Number of topics mined from the documents
+    :param:number_of_terms: Number of packages returned. Can be changed by preference
+    """
     corpus = Corpus()
     corpus.build_corpus(doc)
     corpus.build_vocabulary()
