@@ -18,7 +18,7 @@ Each package on NPM has a brief description of itself on the website. In this mo
 ## Implementation of our App
 There are three parts of our project and each of us was in charge of one of them.
 First, we scraped the package.json data from various NPM projects.
-We first used beautifulsoup
+We first used beautifulsoup to scrape the top 100 popular page of github searching keyword "React" which turns out to be 1000 git repo.
 
 ## Usages
 ### Dependencies
