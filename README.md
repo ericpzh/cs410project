@@ -18,8 +18,7 @@ Each package on NPM has a brief description of itself on the website. In this mo
 ## Implementation of our App
 There are three parts of our project and each of us was in charge of one of them.
 First, we scraped the package.json data from various NPM projects.
-We first used beautifulsoup to scrape the top 100 popular page of github searching keyword "React" which turns out to be 1000 git repo.
-
+We first used beautifulsoup to scrape the top 100 popular pages of github using the search keyword "React". We got about 800 useful repo out of the scrape, and aquires about 800 package.json as our data. We parse the data into text file which contains 800 rows(document) each row has a list of npm lib(terms) that we scraped from package.json of each git repo. We also scrape the top 100 popular pages of npm site(www.npmjs.com) using keyword "React". We got over 1500 npm lib out of it, each contains the "name", "description", and "keywords". We store the data into a json file in the schema of {title:"React",des:"A wonder lib...",keyword:[frontend,...]}.
 ## Usages
 ### Dependencies
 ##### Text Mining Dependencies
