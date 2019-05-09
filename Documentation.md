@@ -9,7 +9,7 @@ The result of the project can be judged by data crawling from some less popular 
 
 ## Functionalities
 Our application helps Node.js developers to find the packages that they might be interested in.
-### Recommend by your current packages
+### Recommend by your current packageshttps://github.com/ericpzh/cs410project/blob/xie/README.md
 In each Node.JS project there is a package.json file indicating the packages used in the project. In this mode we will take your current packages in your Node.js package.json file and use the PLSA algorithm to find the most related packages.
 - Example Input:
 `{"axios":"^0.18.0","gh-pages":"^2.0.1","node-sass":"^4.11.0","prop-types":"^15.7.2","react":"^16.8.3","react-dom":"^16.8.3","react-router-dom":"^4.3.1","react-scripts":"2.1.5","semantic-ui-css":"^2.4.1","semantic-ui-react":"^0.85.0"}`
